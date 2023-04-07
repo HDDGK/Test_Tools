@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Test_Function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test_RE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_daily/Test_Object.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_daily/Test_Function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_RE.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_daily/Test_RE.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Test_daily" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.Test_Function">
     <configuration name="Test_Function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
@@ -59,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_Function.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Test_daily\Test_Function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +86,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_RE.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Test_daily\Test_RE.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />

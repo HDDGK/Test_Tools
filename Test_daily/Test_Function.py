@@ -1,3 +1,6 @@
+import math
+
+
 def Findname():
     import datetime
     daily=["周一周一灵魂归西。",
@@ -47,4 +50,19 @@ def printSign(**sign):
 printSign(GG="西内",jj="哟西")
 
 
-#返回值
+#返回值，提前结束
+def returnFun(money):
+    money=sum(money)
+    moneyN=money
+    moneyN=moneyN*0.5
+    return money,moneyN
+
+list_Money=[12,32,43,55,66]
+GG=returnFun(list_Money)
+print("原价"+str(GG[0])+"，现在"+str(GG[1]))
+
+#匿名变量
+r=10
+result=lambda r:math.pi*r*r
+print(result(r))
+#如果直接print，这里展示的表达式的信息，这里是通过变量来实现了
