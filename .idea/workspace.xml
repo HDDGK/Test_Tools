@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="【练习】0417 02:48 进程相关练习">
-      <change afterPath="$PROJECT_DIR$/Test_daily/Test_Internet/Test_Sever.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test_daily/Test_Internet/Test_Sever_Client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test_daily/Test_Internet/Test_UDP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test_daily/Test_Internet/Test_UDP_Client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/$FileNameWithOutExtension$.py" beforeDir="false" afterPath="$PROJECT_DIR$/Other/$FileNameWithOutExtension$.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGM.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Other/BGM.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoPiao.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Other/GoPiao.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Other/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Other/untitled.ui" afterDir="false" />
-    </list>
+    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="【练习】0418 00:07 服务器相关，暂时先结束，进入下一个环节" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -280,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681697883873</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="【练习】0418 00:07 服务器相关，暂时先结束，进入下一个环节">
+      <created>1681747644387</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681747644388</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,7 +299,8 @@
     <MESSAGE value="【练习】0410 00:00 文件基础操作相关的学习，更新进展" />
     <MESSAGE value="【练习】0416 02:48 爬虫基础操作相关的学习，更新进展&#10;备注：火车站获取车票案例，书中介绍受限制于工具，讲了很多垃圾，没有讲重点内容，而且垃圾内容没有讲清楚，导致不完全按照案例写是有问题的，后续回顾重新写一下案例再看看。" />
     <MESSAGE value="【练习】0417 02:48 进程相关练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="【练习】0417 02:48 进程相关练习" />
+    <MESSAGE value="【练习】0418 00:07 服务器相关，暂时先结束，进入下一个环节" />
+    <option name="LAST_COMMIT_MESSAGE" value="【练习】0418 00:07 服务器相关，暂时先结束，进入下一个环节" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
