@@ -1,5 +1,5 @@
 import sqlite3
-connect=sqlite3.connect('Test_DB.db')
+connect=sqlite3.connect('../Test_DB.db')
 cursor=connect.cursor()
 # cursor.execute('create table user(id int(10) primary key,name varchar(20))')
 # cursor.execute('insert into user(id,name) values("2","MRSOFT")')
@@ -11,7 +11,7 @@ cursor.close()
 connect.commit()
 connect.close()
 
-conn=sqlite3.connect('Test_DB.db')
+conn=sqlite3.connect('../Test_DB.db')
 cu=conn.cursor()
 
 print("\n更新一下数据。")
