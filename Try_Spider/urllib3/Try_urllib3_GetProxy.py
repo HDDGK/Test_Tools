@@ -19,3 +19,5 @@ if response.status_code==200:
         print('代理IP为：',ip,'，对应端口为：',port)
     ip_table[ip]=ip_list
     ip_table.to_excel('ip.xlsx',sheet_name='data')
+
+

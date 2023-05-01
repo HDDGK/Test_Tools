@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="【练习】0418 00:07 服务器相关，暂时先结束，进入下一个环节">
-      <change afterPath="$PROJECT_DIR$/Try_Spider/urllib/Try_urllib_urlopen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Try_Spider/urllib3/Try_urllib3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Try_Spider/urllib3/Try_urllib3_GetProxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Test_Tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test_Tools.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="【练习】0430 22:50 网络爬虫模块，学习请求响应等内容，初步认知，里面有很多细节没有深究，需要后续继续学习，待反复学习看根因">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGM/scrapyDemo/scrapyDemo/spiders/crawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/BGM/scrapyDemo/scrapyDemo/spiders/crawl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Try_Spider/urllib3/Try_urllib3_GetProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Try_Spider/urllib3/Try_urllib3_GetProxy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681748631293</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="【练习】0430 22:50 网络爬虫模块，学习请求响应等内容，初步认知，里面有很多细节没有深究，需要后续继续学习，待反复学习看根因">
+      <created>1682866330854</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682866330854</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,7 +338,8 @@
     <MESSAGE value="【练习】0416 02:48 爬虫基础操作相关的学习，更新进展&#10;备注：火车站获取车票案例，书中介绍受限制于工具，讲了很多垃圾，没有讲重点内容，而且垃圾内容没有讲清楚，导致不完全按照案例写是有问题的，后续回顾重新写一下案例再看看。" />
     <MESSAGE value="【练习】0417 02:48 进程相关练习" />
     <MESSAGE value="【练习】0418 00:07 服务器相关，暂时先结束，进入下一个环节" />
-    <option name="LAST_COMMIT_MESSAGE" value="【练习】0418 00:07 服务器相关，暂时先结束，进入下一个环节" />
+    <MESSAGE value="【练习】0430 22:50 网络爬虫模块，学习请求响应等内容，初步认知，里面有很多细节没有深究，需要后续继续学习，待反复学习看根因" />
+    <option name="LAST_COMMIT_MESSAGE" value="【练习】0430 22:50 网络爬虫模块，学习请求响应等内容，初步认知，里面有很多细节没有深究，需要后续继续学习，待反复学习看根因" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
