@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="【练习】0430 22:50 网络爬虫模块，学习请求响应等内容，初步认知，里面有很多细节没有深究，需要后续继续学习，待反复学习看根因">
+    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="【练习】0430 22:50 临时提交更新，后续转视频学习梳理知识点">
+      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_IPO.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Try_Spider/urllib3/Try_urllib3_GetProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Try_Spider/urllib3/Try_urllib3_GetProxy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +56,8 @@
       <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Gopiao" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Try_urllib3_GetProxy">
-    <configuration name="Test_UDP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.MOOC_IPO">
+    <configuration name="MOOC_IPO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,11 +65,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_daily/Test_Internet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MOOC_Study" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_daily/Test_Internet/Test_UDP.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/MOOC_IPO.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MOOC_IPO" />
         <item itemvalue="Python.Try_urllib3_GetProxy" />
         <item itemvalue="Python.Try_urllib3" />
         <item itemvalue="Python.Try_urllib_urlopen" />
         <item itemvalue="Python.Test_URL" />
-        <item itemvalue="Python.Test_UDP" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682866330854</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="【练习】0430 22:50 临时提交更新，后续转视频学习梳理知识点">
+      <created>1682959330407</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682959330407</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -339,7 +346,8 @@
     <MESSAGE value="【练习】0417 02:48 进程相关练习" />
     <MESSAGE value="【练习】0418 00:07 服务器相关，暂时先结束，进入下一个环节" />
     <MESSAGE value="【练习】0430 22:50 网络爬虫模块，学习请求响应等内容，初步认知，里面有很多细节没有深究，需要后续继续学习，待反复学习看根因" />
-    <option name="LAST_COMMIT_MESSAGE" value="【练习】0430 22:50 网络爬虫模块，学习请求响应等内容，初步认知，里面有很多细节没有深究，需要后续继续学习，待反复学习看根因" />
+    <MESSAGE value="【练习】0430 22:50 临时提交更新，后续转视频学习梳理知识点" />
+    <option name="LAST_COMMIT_MESSAGE" value="【练习】0430 22:50 临时提交更新，后续转视频学习梳理知识点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
