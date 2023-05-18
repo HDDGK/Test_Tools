@@ -11,6 +11,8 @@ String_Chooice = ['[------------MOOC----------]',
                   '[8]EX',
                   '[9]结束',
                   '[10]圆周率',
+                  '[11]圆周率',
+
                   '[-----------Choose---------]'
                   ]
 
@@ -36,8 +38,6 @@ def Draw_Snack():
     # a.showturtle()  # make the turtle visible
     # a.pendown()  # draw when the turtle moves
     # a.goto(50,-50)  # move the turtle to a new location
-
-
     turtle.penup()
     turtle.fd(-250)
     turtle.goto(0, 0)
@@ -60,12 +60,10 @@ def Draw_Snack():
     turtle.circle(16,180)
     turtle.width(40)
     turtle.fd(40*2/3)
-    turtle.done
     turtle.exitonclick()
 
 def Draw_Z():
     import turtle
-    import random
     turtle.setup(1080, 960, 200, 200)  # 设置窗体启动位置，非必须
     turtle.left(45)
     turtle.fd(150)
@@ -73,7 +71,6 @@ def Draw_Z():
     turtle.fd(150)
     turtle.left(150)
     turtle.fd(150)
-    turtle.done
     turtle.exitonclick()
 
 def SJ_int_float():
@@ -156,7 +153,7 @@ def Run_EX():
             print("玩呢{}".format("?"*(2*i+1)))
             time.sleep(random.random())
 
-def Circle_Π():
+def Circle_Pai():
     pi=0
     n=100
     for k in range(n):
@@ -177,6 +174,25 @@ def Circle_Π():
     pi=4*(hits/Dos)
     print("圆周率为：{}".format(pi))
     print("运行时间是{}：".format(perf_counter()-start))
+
+
+def math_DG(n):
+    if n==0:
+        return 1
+    else:
+        return n*math_DG(n-1)
+
+    count=0
+def hannuota(n,src,dst,mid):
+    global count
+    if n==1:
+        print("{}:{}->{}".format(1,src,dst))
+        count+=1
+    else:
+        hannuota(n-1, src,mid , dst)
+        print("{}:{}->{}".format(n,src,dst))
+        count+=1
+        hannuota(n-1,mid, dst, src)
 
 
 def print_MainMenu():
@@ -202,9 +218,16 @@ def print_MainMenu():
     elif choose == 9:
         print("已结束")
     elif choose == 10:
-        Circle_Π()
+        Circle_Pai()
+    elif choose == 11:
+        print(math_DG(23))
+    elif choose == 12:
+        print("13")
+    elif choose == 13:
+        hannuota(3,"A","B","C")
+        print(count)
     else:
-        print("长点心。。。")
+        print("输错：长点心。。。")
         time.sleep(2)
 if __name__=='__main__':
     import time
@@ -212,6 +235,5 @@ if __name__=='__main__':
         try:
             print_MainMenu()
         except :
-            print("长点心。。。")
+            print("运行报错：长点心。。。")
             time.sleep(2)
-            print_MainMenu()

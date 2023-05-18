@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="【练习】0505 21:40 提交更新">
-      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_FUNC.py" afterDir="false" />
+    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="【练习】0508 01:30 提交更新">
+      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_AutoPaint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_File.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_SNOW.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_shuju.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_IPO.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_IPO.py" afterDir="false" />
     </list>
@@ -57,7 +60,28 @@
       <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Gopiao" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MOOC_FUNC">
+  <component name="RunManager" selected="Python.MOOC_AutoPaint">
+    <configuration name="MOOC_AutoPaint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Test_Tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MOOC_Study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/MOOC_AutoPaint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MOOC_FUNC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Try_urllib3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MOOC_SNOW" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Try_Spider/urllib3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MOOC_Study" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Try_Spider/urllib3/Try_urllib3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/MOOC_SNOW.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Try_urllib3_GetProxy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MOOC_shuju" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,32 +153,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Try_Spider/urllib3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MOOC_Study" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Try_Spider\urllib3\Try_urllib3_GetProxy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Try_urllib_urlopen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Test_Tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Try_Spider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Try_Spider\urllib\Try_urllib_urlopen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/MOOC_shuju.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MOOC_FUNC" />
+        <item itemvalue="Python.MOOC_AutoPaint" />
+        <item itemvalue="Python.MOOC_shuju" />
+        <item itemvalue="Python.MOOC_SNOW" />
         <item itemvalue="Python.MOOC_IPO" />
-        <item itemvalue="Python.Try_urllib3_GetProxy" />
-        <item itemvalue="Python.Try_urllib3" />
-        <item itemvalue="Python.Try_urllib_urlopen" />
+        <item itemvalue="Python.MOOC_FUNC" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +332,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683294047652</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="【练习】0508 01:30 提交更新">
+      <created>1683480630977</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683480630977</updated>
+    </task>
+    <task id="LOCAL-00017" summary="【练习】0508 01:30 提交更新">
+      <created>1683480676435</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683480676435</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,7 +373,8 @@
     <MESSAGE value="【练习】0430 22:50 网络爬虫模块，学习请求响应等内容，初步认知，里面有很多细节没有深究，需要后续继续学习，待反复学习看根因" />
     <MESSAGE value="【练习】0430 22:50 临时提交更新，后续转视频学习梳理知识点" />
     <MESSAGE value="【练习】0505 21:40 提交更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="【练习】0505 21:40 提交更新" />
+    <MESSAGE value="【练习】0508 01:30 提交更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="【练习】0508 01:30 提交更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
