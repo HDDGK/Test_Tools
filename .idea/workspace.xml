@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="【练习】0508 01:30 提交更新">
-      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_AutoPaint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_File.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_SNOW.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_shuju.py" afterDir="false" />
+    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="【练习】 01:30 提交更新">
+      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_File_Shuju.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_IPO.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_IPO.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683480676435</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="【练习】0508 01:30 提交更新">
+      <created>1684427648301</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684427648301</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
