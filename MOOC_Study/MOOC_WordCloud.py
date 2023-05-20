@@ -44,7 +44,7 @@ def get_shape():
     from imageio import imread
     from tkinter import filedialog,messagebox
     tkinter.messagebox.showinfo("选择","选择一个形状图片")
-    Folder_PNG_Path = filedialog.askopenfilename(title="选择转换文本",filetypes=[('png', "*.png"), ('All Files', "*")])
+    Folder_PNG_Path = filedialog.askopenfilename(title="选择一个形状PNG图片",filetypes=[('png', "*.png"), ('All Files', "*")])
     print("")
     mask=imread(Folder_PNG_Path,pilmode='L')
     return mask
