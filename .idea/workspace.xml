@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="【练习】 01:30 提交更新">
-      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_File_Shuju.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_WordCloud.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_File_Shuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_File_Shuju.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Gopiao" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MOOC_AutoPaint">
+  <component name="RunManager" selected="Python.MOOC_WordCloud">
     <configuration name="MOOC_AutoPaint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,27 +71,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/MOOC_AutoPaint.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MOOC_FUNC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Test_Tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MOOC_Study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/MOOC_FUNC.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,6 +121,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MOOC_WordCloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Test_Tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MOOC_Study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\MOOC_Study\MOOC_WordCloud.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MOOC_shuju" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,27 +155,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/MOOC_shuju.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Try_urllib_urlopen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Test_Tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Try_Spider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Try_Spider\urllib\Try_urllib_urlopen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MOOC_AutoPaint" />
+        <item itemvalue="Python.MOOC_WordCloud" />
         <item itemvalue="Python.MOOC_shuju" />
         <item itemvalue="Python.MOOC_SNOW" />
+        <item itemvalue="Python.MOOC_AutoPaint" />
         <item itemvalue="Python.MOOC_IPO" />
-        <item itemvalue="Python.MOOC_FUNC" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684427648301</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="【练习】 01:30 提交更新">
+      <created>1684552915838</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684552915838</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,7 +364,8 @@
     <MESSAGE value="【练习】0430 22:50 临时提交更新，后续转视频学习梳理知识点" />
     <MESSAGE value="【练习】0505 21:40 提交更新" />
     <MESSAGE value="【练习】0508 01:30 提交更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="【练习】0508 01:30 提交更新" />
+    <MESSAGE value="【练习】 01:30 提交更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="【练习】 01:30 提交更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
