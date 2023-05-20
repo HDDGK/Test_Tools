@@ -1,4 +1,6 @@
 import tkinter.messagebox
+from Tool_get_file_address import *
+
 
 
 def get_chooice():
@@ -65,7 +67,7 @@ def get_WordCloud(mainWord):
     )
     print(mainword)
     wordcloud_paint.generate(mainWord)
-    wordcloud_paint.to_file(r"C:\Users\HK145-TP\Desktop\auto_print.png")
+    wordcloud_paint.to_file(r"C:\Users\HK145-TP\Desktop\新建文件夹\auto_print.png")
 
 txt=get_Txt()
 mainword=get_MianWord(txt)

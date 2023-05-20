@@ -6,6 +6,19 @@ def find_adress(originalAdress,saveName,saveType):
             originalAdress_up+=(saveName+"."+saveType)
             print(originalAdress_up)
             return originalAdress_up
+def find_adress_up(originalAdress):
+    print(originalAdress)
+    for i in range(len(originalAdress)):
+        if (originalAdress[-i-1])=="/":
+            originalAdress_up=originalAdress[0:len(originalAdress)-i]
+            return originalAdress_up
+def find_adress_filename(originalAdress):
+    print(originalAdress)
+    for i in range(len(originalAdress)):
+        if (originalAdress[-i - 1]) == "/":
+            originalAdress_up = originalAdress[len(originalAdress) - i::]
+            return originalAdress_up
+
 
 def find_File_type(originalAdress):
     for i in range(len(originalAdress)):
