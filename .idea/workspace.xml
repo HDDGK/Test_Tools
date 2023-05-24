@@ -4,10 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="新增图片类型PNG-JPG类型转换，包括文件选择，类型识别，类型转换，文件原位置改名保存[小调整]">
-      <change afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_TheOlympicGames.py" afterDir="false" />
+    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="新增：画图工具，绘制花朵">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_WordCloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_Study/MOOC_WordCloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_Art.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_Art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_AutoPaint.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_AutoPaint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_FUNC.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_FUNC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_File.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_File_Shuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_File_Shuju.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_GAME.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_GAME.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_HLD_Personality.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_HLD_Personality.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_IPO.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_IPO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_MyQR.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_MyQR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_OS.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_OS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_Pyqt5AndWxpython.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_Pyqt5AndWxpython.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_SNOW.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_SNOW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_Spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_Spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_TheOlympicGames.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_TheOlympicGames.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_WordCloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_WordCloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/MOOC_shuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_shuju.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/Tool_Choose_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/Tool_Choose_File.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/Tool_Flower.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/Tool_Flower.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/Tool_get_file_address.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/Tool_get_file_address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MOOC_Study/Tool_picture_change.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOOC_BasicStudy/Tool_picture_change.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +42,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/anaconda3/Lib/site-packages/MyQR/__init__.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,8 +79,8 @@
       <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Gopiao" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MOOC_TheOlympicGames">
-    <configuration name="MOOC_TheOlympicGames" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Tool_Flower">
+    <configuration name="MOOC_HLD_Personality" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/MOOC_TheOlympicGames.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/MOOC_HLD_Personality.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MOOC_WordCloud (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MOOC_MyQR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,7 +113,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/MOOC_WordCloud.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/MOOC_MyQR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MOOC_WordCloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MOOC_Pyqt5AndWxpython" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\MOOC_Study\MOOC_WordCloud.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/MOOC_Pyqt5AndWxpython.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Tool_Choose_File" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MOOC_Spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,7 +155,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/Tool_Choose_File.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\MOOC_Study\MOOC_Spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Tool_picture_change" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Tool_Flower" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +176,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/Tool_picture_change.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Study/Tool_Flower.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MOOC_TheOlympicGames" />
-        <item itemvalue="Python.MOOC_WordCloud (1)" />
-        <item itemvalue="Python.Tool_picture_change" />
-        <item itemvalue="Python.Tool_Choose_File" />
-        <item itemvalue="Python.MOOC_WordCloud" />
+        <item itemvalue="Python.Tool_Flower" />
+        <item itemvalue="Python.MOOC_Pyqt5AndWxpython" />
+        <item itemvalue="Python.MOOC_MyQR" />
+        <item itemvalue="Python.MOOC_Spider" />
+        <item itemvalue="Python.MOOC_HLD_Personality" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +379,77 @@
       <option name="project" value="LOCAL" />
       <updated>1684593687542</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="新增比赛功能，包含自顶向下程序模块细分的思维，逐步分解功能，并实现">
+      <created>1684779200663</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684779200663</updated>
+    </task>
+    <task id="LOCAL-00024" summary="新增雷达图功能，">
+      <created>1684865268157</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684865268157</updated>
+    </task>
+    <task id="LOCAL-00025" summary="新增OS库功能，这里简单完成自动化pip">
+      <created>1684865314871</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1684865314871</updated>
+    </task>
+    <task id="LOCAL-00026" summary="新增：爬虫的尝试小案例">
+      <created>1684945410118</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1684945410118</updated>
+    </task>
+    <task id="LOCAL-00027" summary="新增：自制二维码">
+      <created>1684945429149</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1684945429149</updated>
+    </task>
+    <task id="LOCAL-00028" summary="新增：自制二维码">
+      <created>1684946079963</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1684946079963</updated>
+    </task>
+    <task id="LOCAL-00029" summary="新增：图型交互界面窗口，只是窗口">
+      <created>1684948470927</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1684948470927</updated>
+    </task>
+    <task id="LOCAL-00030" summary="新增：交互设计中，游戏和图片的常用库信息，内容空，">
+      <created>1684948531375</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1684948531375</updated>
+    </task>
+    <task id="LOCAL-00031" summary="新增：交互设计中，游戏和图片的常用库信息，内容空，">
+      <created>1684950645606</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1684950645606</updated>
+    </task>
+    <task id="LOCAL-00032" summary="新增：画图工具，绘制花朵">
+      <created>1684950677383</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1684950677383</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,6 +481,14 @@
     <MESSAGE value="新增获取文本，提取关键词，并生成词云图片" />
     <MESSAGE value="新增图片类型PNG-JPG类型转换，包括文件选择，类型识别，类型转换，文件原位置改名保存" />
     <MESSAGE value="新增图片类型PNG-JPG类型转换，包括文件选择，类型识别，类型转换，文件原位置改名保存[小调整]" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增图片类型PNG-JPG类型转换，包括文件选择，类型识别，类型转换，文件原位置改名保存[小调整]" />
+    <MESSAGE value="新增比赛功能，包含自顶向下程序模块细分的思维，逐步分解功能，并实现" />
+    <MESSAGE value="新增雷达图功能，" />
+    <MESSAGE value="新增OS库功能，这里简单完成自动化pip" />
+    <MESSAGE value="新增：爬虫的尝试小案例" />
+    <MESSAGE value="新增：自制二维码" />
+    <MESSAGE value="新增：图型交互界面窗口，只是窗口" />
+    <MESSAGE value="新增：交互设计中，游戏和图片的常用库信息，内容空，" />
+    <MESSAGE value="新增：画图工具，绘制花朵" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增：画图工具，绘制花朵" />
   </component>
 </project>
