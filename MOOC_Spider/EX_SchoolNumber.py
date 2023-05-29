@@ -89,6 +89,7 @@ def formatString():
     print("{0:^4}\t{1:{2}^10}".format("排名", "学校名称",chr(12288)))
 
 
+
 if __name__ == '__main__':
     url_list = ['https://www.shanghairanking.cn/rankings/bcur/2023',]
     try:
