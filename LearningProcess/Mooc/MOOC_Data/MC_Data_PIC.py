@@ -39,6 +39,7 @@ def Draw(picture_address):
 
 def main():
     picture_list=[r"C:\Users\HK145-TP\Desktop\新建文件夹\老师.jpg",
+                  r"C:\Users\HK145-TP\Desktop\新建文件夹\云彩.jpg",
                   r"C:\Users\HK145-TP\Desktop\新建文件夹\123.png",
                   r"C:\Users\HK145-TP\Desktop\新建文件夹\111.png",
                   r"C:\Users\HK145-TP\Desktop\新建文件夹\电风扇.jpg",
@@ -60,7 +61,7 @@ def main():
                   r"C:\Users\HK145-TP\Desktop\新建文件夹\蓝天.jpg",
                   r"C:\Users\HK145-TP\Desktop\新建文件夹\Heavy2.png",
                   ]
-    Draw(picture_list[13])
+    Draw(picture_list[1])
     Draw_HandleDraw(picture_list[3])
 
 

@@ -103,13 +103,13 @@ def jie_ba():
     jieba.add_word("蟒蛇语言")
     print(jieba.lcut(name))  # 精准模式
 def get_txt():
-    txt1=open("hamlet.txt",'r').read()
+    txt1=open("hamlet.txt", 'r').read()
     txt=txt1.lower()
     for ch in '~！@#￥%……&*（）!@#$%^&*()_+——+-=:;\'；‘：",<，《。》.>?/？、【】、{}|[]\\':
         txt =txt.replace(ch,' ')
     return txt
 def get_word():
-    txt1=open("sanguo.txt",'r',encoding="utf-8").read()
+    txt1=open("sanguo.txt", 'r', encoding="utf-8").read()
     txt=txt1.lower()
     for ch in '~！@#￥%……&*（）!@#$%^&*()_+——+-=:;\'\n； ‘："“”,<，《。》.>?/？、【】、{}|[]\\':
         txt =txt.replace(ch,' ')

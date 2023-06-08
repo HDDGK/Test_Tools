@@ -83,8 +83,8 @@ def EX_YLB():
     http://python123.io/dv/L1_Strain.wav
     http://python123.io/dv/wf_template.txt
     '''
-    rate_h,hstrain=wavfile.read(r'H1_Strain.wav','rb')
-    rate_l,lstrain=wavfile.read(r'L1_Strain.wav','rb')
+    rate_h,hstrain=wavfile.read(r'H1_Strain.wav', 'rb')
+    rate_l,lstrain=wavfile.read(r'L1_Strain.wav', 'rb')
     reftime,ref_H1=np.genfromtxt('wf_template.txt').transpose()
 
     htime_interval=1/rate_h

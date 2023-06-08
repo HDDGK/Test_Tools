@@ -3,10 +3,10 @@ a=np.arange(100).reshape(5,20)
 np.savetxt('a.csv',a,fmt='%d',delimiter=',')
 a=np.arange(100).reshape(5,10,2)
 a.tofile('b.dat',format='%d')
-b=np.fromfile('b.dat',dtype=np.int32).reshape(5,10,2)
+b=np.fromfile('b.dat', dtype=np.int32).reshape(5, 10, 2)
 # print(b)
 a=np.arange(100).reshape(5,10,2)
-np.save('n.npy',a)
+np.save('n.npy', a)
 b=np.load('n.npy')
 
 
