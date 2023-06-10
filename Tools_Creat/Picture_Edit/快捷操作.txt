@@ -1,0 +1,22 @@
+1、编辑类(Editing)
+Ctrl + Space 基本的代码完成(类、方法、属性)
+Ctrl + Alt + Space 快速导入任意类
+Ctrl + Shift + Enter 语句完成
+Ctrl + P 参数信息(在方法中调用参数)
+Ctrl + Q 快速查看文档
+F1 Web帮助文档主页
+Shift + F1 选中对象的Web帮助文档
+Ctrl + 悬浮/单击鼠标左键 简介/进入代码定义
+Ctrl + Z 撤销上次操作
+Ctrl + Shift + Z 重做,恢复上次的撤销
+Ctrl + F1 显示错误描述或警告信息
+Alt + Insert 自动生成代码
+Ctrl + O 重新方法
+Ctrl + Alt + T 选中
+Ctrl + / 行注释/取消注释
+Ctrl + Shift + / 块注释
+Ctrl + W 选中增加的代码块
+Ctrl + Shift + W 回到之前状态
+Ctrl + Shift + ]/[ 选定代码块结束、开始
+Alt + Enter 快速修正
+Ctrl + Alt + L 代码格式化
