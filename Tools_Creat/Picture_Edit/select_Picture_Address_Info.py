@@ -18,7 +18,7 @@ def choose_Dir(*types):
     # fileList=filedialog.askopenfilename
     print("-"*12,"获取文件开始","-"*12)
     choose_FileDir=filedialog.askdirectory()
-    Save_FileDir=choose_FileDir+'/处理后文件'
+    Save_FileDir=choose_FileDir+'/处理后文件/'
     # print(choose_FileDir)
     file_All_List=os.listdir(choose_FileDir)
     # print(file_All_List)
@@ -62,7 +62,39 @@ def Pic_HandDraw(picture_Address,picture_SaveDir,picture_SaveAddress):
     print(picture_Address)
     print(picture_SaveDir)
     print(picture_SaveAddress)
-    pass
+    a = np.asarray(Image.open(picture_Address).convert('L')).astype('float')
+
+    depth = 20
+    grad = np.gradient(a)
+    grad_x, grad_y = grad
+    grad_x = grad_x * depth / 100
+    grad_y = grad_y * depth / 100
+    A = np.sqrt(grad_x ** 2 + grad_y ** 2 + 1.)
+    uni_x = grad_x / A
+    uni_y = grad_y / A
+    uni_z = 1. / A
+
+    vec_el = np.pi / 2.2
+    vec_az = np.pi / 4.
+    dx = np.cos(vec_el) * np.cos(vec_az)
+    dy = np.cos(vec_el) * np.sin(vec_az)
+    dz = np.sin(vec_el)
+
+    b = 255 * (dx * uni_x + dy * uni_y + dz * uni_z)
+    b = b.clip(0.255)
+    im = Image.fromarray(b.astype('uint8'))
+    # im.save(r"C:\Users\HK145-TP\Desktop\HandleDraw.png")
+    if os.path.exists(picture_SaveDir):
+        # print("打开完成2")
+        # print(picture_SaveAddress)
+        im.save(picture_SaveAddress)
+        print("-" * 12, "图片保存成功", "-" * 12)
+
+    else :
+        os.makedirs(picture_SaveDir)
+        # print("???")
+        im.save(picture_SaveAddress)
+        print("-" * 12, "图片保存成功", "-" * 12)
 
 def Pic_HeavyColor(picture_Address,picture_SaveDir,picture_SaveAddress):
     # im = np.array(Image.open(picture_Address).convert('L'))
@@ -92,3 +124,4 @@ def Pic_HeavyColor(picture_Address,picture_SaveDir,picture_SaveAddress):
 
 if __name__ == '__main__':
     BQO_Image_Save('极致色彩')
+    BQO_Image_Save('手绘风格')
