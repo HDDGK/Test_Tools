@@ -1,0 +1,25 @@
+p{
+    color:red;
+    text-align:center;
+    font-family:arial;
+}
+#para1{
+    color:black;
+    text-align:center;
+    font-family:arial;
+}
+
+.class{
+    text-align:left;
+
+}
+h1{
+text-align:center;
+color:blue;
+}
+/*
+margin：外边距
+border：边框
+padding：内边距
+content：内容
+*/

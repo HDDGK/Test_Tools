@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HDDGK</title>
+<!--    <style>-->
+<!--        h1{-->
+<!--        text-align:center;-->
+<!--        color:blue-->
+<!--        }-->
+<!--    </style>-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.js">
+        function MyFunc(name,website){
+            alert(name+"点击"+website+"网页")
+        }
+
+<!--        alert("弹窗提示")-->
+        var d=new Date().getDay();
+        switch(d){
+            case 0:
+                x="星期日";
+                break;
+            case 1:
+                x="星期一";
+                break;
+            case 2:
+                x="星期二";
+                break;
+            case 3:
+                x="星期三";
+                break;
+            case 4:
+                x="星期四";
+                break;
+            case 5:
+                x="星期五";
+                break;
+            case 6:
+                x="星期六";
+                break;
+        }
+        document.write(x);
+    </script>
+</head>
+<body>
+<!--    表格-->
+    <div>
+        <h1>明日学院</h1>
+        <table border="1">
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td>2,2</td>
+        </tr>
+        <tr>
+            <td>
+                <ol type="I">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+            </td>
+            <td>
+                <ul>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                </ul>
+            </td>
+            <td>
+                <dl>
+                    <dt>123</dt>
+                    <dd>1</dd>
+                    <dd>2</dd>
+                    <dd>3</dd>
+                    <dt>456</dt>
+                    <dd>4</dd>
+                    <dd>5</dd>
+                    <dd>6</dd>
+                </dl>
+            </td>
+        </tr>
+    </table>
+        <form action="" method="post">
+            <div>
+<!--                <h1>明日学院</h1>-->
+                <label for="username">用户名：</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div>
+                <label for="password">密&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="password">性&nbsp;&nbsp;&nbsp;&nbsp;别：</label>
+                <input type="radio" name="gender" value="male" style="display:inline" >男
+                <input type="radio" name="gender" value="female" style="display:inline" >女
+                <input type="checkbox" name="gender" value="female" style="display:inline" >女
+                <input type="submit" name="Submit" value="提交提交">
+                <input type="reset" name="Rest" value="重置">
+                <input type="button" name="Button" onclick="MyFunc('BB','QQ')" value="按钮">
+            </div>
+            <div>
+                <input name="file" type="file" value="选择文件" formenctype="multipart/form-data" size="16" maxlength="200">
+<!--                列表和菜单-->
+                <select name="name" size="value" multiple>
+                    <option value="value" >选项1</option>
+                    <option value="value" selected>选项2</option>
+                    <option value="value" >选项3</option>
+                </select>
+                <textarea style="text-align:center">DDDDDDDD,ddd,dddd
+                </textarea>
+            </div>
+            <div>
+                <input name="imageField" type="image" src="Image/Gif.gif" width="300" height="300">
+                <input type="button" name="Button" onclick="Display()" value="按钮2">
+
+                <p id="demo">ddd</p>
+                <p >dddd2</p>
+                <p >dddd3</p>
+                <button>hide</button>
+                <script>
+                    $(document).ready(
+                        function(){
+                            $("button").click(function(){
+                                $("p").hide();
+                            });
+                        });
+                    function Display(){
+                    var d=new Date();
+                    var now=d.toLocaleString()
+                    document.getElementById("demo").innerHTML=now;
+                    }
+                </script>
+
+
+            </div>
+            <div>
+<!--                <input name="" type="image" src="Image/Gif.gif" width="300" height="300">-->
+            </div>
+            <div>
+<!--                <input name="imageField" type="image" src="Image/Gif.gif" width="300" height="300">-->
+            </div>
+
+        </form>
+
+    </div>
+</body>
+</html>

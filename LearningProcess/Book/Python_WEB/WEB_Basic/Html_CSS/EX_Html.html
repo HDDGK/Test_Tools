@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.js"></script>
+</head>
+<body>
+    <p id="p1" style="color:red">dddd2</p>
+    <p id="p2">dddd2</p>
+    <p id="web" ><b>www.baidu.com</b></p>
+    <button id="hide_p" class="test">隐藏P</button>
+    <button id="hide_web">隐藏网页</button>
+    <button id="hide_class">隐藏class</button>
+    <button id="get_text">get_text</button>
+    <button id="get_Html">get_Html</button>
+    <div>
+    <!--                <h1>明日学院</h1>-->
+        <label for="username">用户名：</label>
+        <input type="text" name="username" id="username">
+    </div>
+    <div>
+        <label for="password">密&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+        <input type="password" name="password" id="password">
+    </div>
+    <div>
+        <button id="btn">提交</button>
+        <input type="submit" name="Submit" value="提交提交">
+    </div>
+    <div>
+        <a id="URL_test" href="https://cdn.staticfile.org">明日</a>
+    </div>
+    <div>
+        <button id="btn1">get</button>
+        <button id="btn2">change</button>
+    </div>
+
+    <script>
+        $('#btn1').click(function(){
+            var url=$("#URL_test").attr("href");
+            alert(url);
+        });
+        $('#btn2').click(function(){
+            var url=$("#URL_test").attr("href","http://www.baidu.com");
+            $("#URL_test").html("百度");
+        });
+        $('#btn').click(function(){
+            var username=$("#username").val()
+            var password=$("#password").val()
+                if(username.length<2){
+                    alert("名字太短")
+                    return False;
+                }
+                if(password.length<6){
+                    alert("密码太短")
+                    return False;
+                }
+
+        });
+
+        $(document).ready(
+            function(){
+                <!--Jqure指定元素选择-->
+                <!--选择ID=hide_p，指定-->
+                $("#hide_p").click(function(){
+
+                    <!--选择<p>元素-->
+                    $("p").hide();
+                });
+                $("#hide_web").click(function(){
+                    $("#web").hide();
+                });
+
+                <!--Jqure.class选择-->
+                $("#hide_class").click(function(){
+                    $(".test").hide();
+                });
+            }
+        );
+
+        <!--这里采用的hover触发方法，实际还有很多dom事件，        -->
+        $(document).ready(function(){
+            $("#p1").hover(
+                function(){
+                    alert("覆盖")
+                },
+                function(){
+                    alert("移除")
+                }
+            );
+        });
+        $('#get_Html').click(function(){
+            alert("html:"+$('#web').html())
+        });
+
+        $('#get_text').click(function(){
+            alert("text:"+$('#web').text())
+        });
+
+
+
+
+
+    </script>
+</body>
+</html>
