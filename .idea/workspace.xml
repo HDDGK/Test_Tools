@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="新增：UDP 简单服务器和客户端案例">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/Html_CSS/EX_HTML_Bootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/Html_CSS/Image/Gif.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/InternetBasic/Views/course.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/InternetBasic/application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/InternetBasic/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/WebBasic/info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/CloudMessageBoard/URL路由机理.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/CloudMessageBoard/cloudms/msgapp/templates/MsgSingleWeb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/CloudMessageBoard/cloudms/msgapp/templates/msgdata.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/CloudMessageBoard/cloudms/msgapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/Django/Django_URL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools_Creat/ChapterCut/chapterCutting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Try/class_try.py" afterDir="false" />
+    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="部分工程新增文件">
+      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/CloudMessageBoard/cloudms/msgapp/templates/111.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/Html_CSS/EX_Html.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/Html_CSS/EX_Html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Spider/EX_Gupiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Spider/EX_Gupiao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/Django/Django_URL.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/Django/Django_URL.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,13 +231,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680672722856</updated>
-    </task>
-    <task id="LOCAL-00019" summary="【练习】 01:30 提交更新">
-      <created>1684552915838</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1684552915838</updated>
     </task>
     <task id="LOCAL-00020" summary="新增获取文本，提取关键词，并生成词云图片">
       <created>1684578533697</created>
@@ -589,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687871938412</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="部分工程新增文件">
+      <created>1687872349561</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1687872349561</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -610,7 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增：爬取网页内存信息，包含&#10;1、获取网页信息展示&#10;2、获取京东、亚马逊的页面信息&#10;3、通过链接方式提交请求信息&#10;4、获取图片并保存文件&#10;5、请求链接形式查询IP归属地【好像被发现了】" />
     <MESSAGE value="新增：beautifulSoup，&#10;1、获取网页信息，&#10;2、解析展示&#10;3、按照节点遍历&#10;4、prettify优化展示方式" />
     <MESSAGE value="新增：信息标记和提取" />
     <MESSAGE value="新增：RE正则表达式的学习&#10;1、基础的符号及经典案例使用，" />
@@ -635,6 +620,7 @@
     <MESSAGE value="新增EX:HTML基础样式接触，CSS和JavaScript的基础了解" />
     <MESSAGE value="新增：TCP 简单服务器和客户端案例" />
     <MESSAGE value="新增：UDP 简单服务器和客户端案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增：UDP 简单服务器和客户端案例" />
+    <MESSAGE value="部分工程新增文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="部分工程新增文件" />
   </component>
 </project>
