@@ -27,8 +27,8 @@ def getStockList(lst,stockURL):
     嵌套查找
         xx={}
         soup=BeautifulSoup(html,'html.parser')
-        info=sopu.find('div',attrs{'class':'xxxx'})
-        bb_info=info.find('div',attrs{'class':'xxxx'})[x]
+        info.txt=sopu.find('div',attrs{'class':'xxxx'})
+        bb_info=info.txt.find('div',attrs{'class':'xxxx'})[x]
         xx.updata({'xxxx':bb_info.text.split()[0]})
     一步步赛选出来有用信息
     '''

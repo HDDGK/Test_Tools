@@ -4,105 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/EX_Cloud_MessageBoard/mysite/hello2app/templates/MC_Cloud_EX.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/EX_Cloud_MessageBoard/mysite/hello2app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/EX_Cloud_MessageBoard/mysite/helloapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/EX_Cloud_MessageBoard/mysite/mysite/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/MC_Cloud_EX.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/MC_cloud_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools_Creat/Picture_Edit/select_Picture_Address_Info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools_Creat/Picture_Edit/快捷操作.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Test_Tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test_Tools.iml" afterDir="false" />
+    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="新增：UDP 简单服务器和客户端案例">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/Html_CSS/EX_HTML_Bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/Html_CSS/Image/Gif.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/InternetBasic/Views/course.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/InternetBasic/application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/InternetBasic/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/WebBasic/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/CloudMessageBoard/URL路由机理.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/CloudMessageBoard/cloudms/msgapp/templates/MsgSingleWeb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/CloudMessageBoard/cloudms/msgapp/templates/msgdata.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/CloudMessageBoard/cloudms/msgapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/Django/Django_URL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools_Creat/ChapterCut/chapterCutting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Try/class_try.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGM/scrapyDemo/scrapy.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGM/scrapyDemo/scrapyDemo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Cloud/EX_Cloud_MessageBoard/mysite/helloapp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGM/scrapyDemo/scrapyDemo/items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGM/scrapyDemo/scrapyDemo/middlewares.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGM/scrapyDemo/scrapyDemo/pipelines.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGM/scrapyDemo/scrapyDemo/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGM/scrapyDemo/scrapyDemo/spiders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGM/scrapyDemo/scrapyDemo/spiders/crawl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGM/scrapyDemo/scrapyDemo/spiders/quotes-haokan.baidu.com.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGM/scrapyDemo/scrapyDemo/spiders/quotes-pcgame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Camera_Video/Tool_open_Camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tools_Creat/Camera_Video/Tool_open_Camera.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopiao/Gopiao.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopiao/get_station.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopiao/query_request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopiao/station.text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_Art.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_Art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_AutoPaint.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_AutoPaint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_FUNC.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_FUNC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_File.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_File_Shuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_File_Shuju.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_GAME.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_GAME.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_HLD_Personality.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_HLD_Personality.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_IPO.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_IPO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_MyQR.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_MyQR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_OS.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_OS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_Pyqt5AndWxpython.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_Pyqt5AndWxpython.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_SNOW.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_SNOW.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_Spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_Spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_TheOlympicGames.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_TheOlympicGames.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_WordCloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_WordCloud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/MOOC_shuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/MOOC_shuju.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/Tool_Choose_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/Tool_Choose_File.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/Tool_Flower.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/Tool_Flower.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/Tool_get_file_address.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/Tool_get_file_address.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_BasicStudy/Tool_picture_change.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_BasicStudy/Tool_picture_change.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Data/EX_Pyplot_Draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Data/EX_Pyplot_Draw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Data/MC_Data_DownLoad.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Data/MC_Data_DownLoad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Data/MC_Data_Matplotlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Data/MC_Data_Matplotlib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Data/MC_Data_Numpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Data/MC_Data_Numpy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Data/MC_Data_PIC.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Data/MC_Data_PIC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Data/MC_Data_Pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Data/MC_Data_Pandas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Spider/EX_Gupiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Spider/EX_Gupiao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Spider/EX_SchoolNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Spider/EX_SchoolNumber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Spider/EX_TaoBao_RE.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Spider/EX_TaoBao_RE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Spider/MC_Spider_BfSp.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Spider/MC_Spider_BfSp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Spider/MC_Spider_Info.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Spider/MC_Spider_Info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Spider/MC_Spider_RE.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Spider/MC_Spider_RE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Spider/MC_Spider_Request.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Spider/MC_Spider_Request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOC_Spider/MC_Spider_Scrapy.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Spider/MC_Spider_Scrapy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/$FileNameWithOutExtension$.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/BGM.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/GoPiao.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/untitled.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Practise_ObjectFAS.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Practise_ObjectFAS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_DB.db" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_DB.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_Error.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_Error.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_File.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_FilePath.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_FilePath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_Function.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_Function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_Internet/Test_Sever.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_Internet/Test_Sever.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_Internet/Test_Sever_Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_Internet/Test_Sever_Client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_Internet/Test_TCP.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_Internet/Test_TCP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_Internet/Test_TCP_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_Internet/Test_TCP_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_Internet/Test_UDP.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_Internet/Test_UDP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_Internet/Test_UDP_Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_Internet/Test_UDP_Client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_Moudle.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_Moudle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_Object.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_Object.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_ObjectFAS.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_ObjectFAS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_RE.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_RE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_SQL/Test_SQLink.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_SQL/Test_SQLink.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_SQL/Test_SQLite.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_SQL/Test_SQLite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_URL.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_URL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_process/Test_Process.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_process/Test_Process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_process/Test_Process_JiCheng.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_process/Test_Process_JiCheng.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_process/Test_Process_Lock.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_process/Test_Process_Lock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_process/Test_Process_Pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_process/Test_Process_Pool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_process/Test_Process_Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_process/Test_Process_Queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_process/Test_Process_threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_process/Test_Process_threading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_process/Test_Process_threading_JC.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_process/Test_Process_threading_JC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/Test_process/Text_ProQue.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/Test_process/Text_ProQue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_daily/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Test_daily/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Try_Spider/urllib/Try_urllib_urlopen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Try_Spider/urllib3/Python.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Try_Spider/urllib3/Try_urllib3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Try_Spider/urllib3/Try_urllib3_GetProxy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Try_Spider/urllib3/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/Html_CSS/EX_Html.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/Html_CSS/EX_Html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Spider/EX_Gupiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Spider/EX_Gupiao.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +37,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -140,7 +66,8 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HK145-TP/Documents/GitHub/Test_Tools/MOOC_Cloud/EX_Cloud_MessageBoard/mysite/hello2app/migrations&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HK145-TP/Documents/GitHub/Test_Tools/LearningProcess/Mooc/MOOC_Cloud/CloudMessageBoard/cloudms/msgapp/templates&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Python 控制台&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -159,20 +86,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Mooc\MOOC_Cloud\CloudMessageBoard\cloudms\msgapp\templates" />
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book\Python_WEB\WEB_Basic\Html_CSS" />
       <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\MOOC_Cloud\EX_Cloud_MessageBoard\mysite\hello2app\migrations" />
       <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\MOOC_Cloud\EX_Cloud_MessageBoard\mysite\mysite" />
       <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\MOOC_Cloud\EX_Cloud_MessageBoard\mysite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Try" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Other" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Tools_Creat" />
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book\Python_WEB\WEB_Basic\WebBasic" />
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book\Python_WEB\WEB_Basic\MySQL" />
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book\Python_WEB\WEB_Basic\Html_CSS" />
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book\Python_WEB\WEB_Basic\Html_CSS\Image" />
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book\Python_WEB\WEB_Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.select_Picture_Address_Info">
-    <configuration name="EX_Pyplot_Draw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Tool_open_Camera">
+    <configuration name="EX_HTML_UDP_Client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MOOC_Data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/InternetBasic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Data/EX_Pyplot_Draw.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/InternetBasic/EX_HTML_UDP_Client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MC_Data_Matplotlib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Tool_open_Camera" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MOOC_Data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Camera_Video" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Data/MC_Data_Matplotlib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Camera_Video/Tool_open_Camera.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MC_Data_PIC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="chapterCutting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,32 +151,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MOOC_Data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/ChapterCut" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Data/MC_Data_PIC.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MC_Data_Pandas" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Test_Tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MOOC_Data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOOC_Data/MC_Data_Pandas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/ChapterCut/chapterCutting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,11 +193,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_PictureEidt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Tools_PictureEidt\select_Picture_Address_Info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/select_Picture_Address_Info.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="web_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Test_Tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/InternetBasic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LearningProcess/Book/Python_WEB/WEB_Basic/InternetBasic/web_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Tool_open_Camera" />
         <item itemvalue="Python.select_Picture_Address_Info" />
-        <item itemvalue="Python.MC_Data_PIC" />
-        <item itemvalue="Python.MC_Data_Pandas" />
-        <item itemvalue="Python.EX_Pyplot_Draw" />
-        <item itemvalue="Python.MC_Data_Matplotlib" />
+        <item itemvalue="Python.chapterCutting" />
+        <item itemvalue="Python.web_server" />
+        <item itemvalue="Python.EX_HTML_UDP_Client" />
       </list>
     </recent_temporary>
   </component>
@@ -316,83 +245,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680672722856</updated>
-    </task>
-    <task id="LOCAL-00008" summary="【练习】0416 02:48 爬虫基础操作相关的学习，更新进展&#10;备注：火车站获取车票案例，书中介绍受限制于工具，讲了很多垃圾，没有讲重点内容，而且垃圾内容没有讲清楚，导致不完全按照案例写是有问题的，后续回顾重新写一下案例再看看。">
-      <created>1681584677264</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1681584677264</updated>
-    </task>
-    <task id="LOCAL-00009" summary="【练习】0417 02:48 进程相关练习">
-      <created>1681697841797</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1681697841797</updated>
-    </task>
-    <task id="LOCAL-00010" summary="【练习】0417 02:48 进程相关练习">
-      <created>1681697883873</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1681697883873</updated>
-    </task>
-    <task id="LOCAL-00011" summary="【练习】0418 00:07 服务器相关，暂时先结束，进入下一个环节">
-      <created>1681747644387</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1681747644388</updated>
-    </task>
-    <task id="LOCAL-00012" summary="【练习】0418 00:07 服务器相关，暂时先结束，进入下一个环节">
-      <created>1681748631293</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1681748631293</updated>
-    </task>
-    <task id="LOCAL-00013" summary="【练习】0430 22:50 网络爬虫模块，学习请求响应等内容，初步认知，里面有很多细节没有深究，需要后续继续学习，待反复学习看根因">
-      <created>1682866330854</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1682866330854</updated>
-    </task>
-    <task id="LOCAL-00014" summary="【练习】0430 22:50 临时提交更新，后续转视频学习梳理知识点">
-      <created>1682959330407</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1682959330407</updated>
-    </task>
-    <task id="LOCAL-00015" summary="【练习】0505 21:40 提交更新">
-      <created>1683294047652</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1683294047652</updated>
-    </task>
-    <task id="LOCAL-00016" summary="【练习】0508 01:30 提交更新">
-      <created>1683480630977</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1683480630977</updated>
-    </task>
-    <task id="LOCAL-00017" summary="【练习】0508 01:30 提交更新">
-      <created>1683480676435</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1683480676435</updated>
-    </task>
-    <task id="LOCAL-00018" summary="【练习】0508 01:30 提交更新">
-      <created>1684427648301</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1684427648301</updated>
     </task>
     <task id="LOCAL-00019" summary="【练习】 01:30 提交更新">
       <created>1684552915838</created>
@@ -660,7 +512,84 @@
       <option name="project" value="LOCAL" />
       <updated>1686243134035</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="调整文件归类，细化">
+      <created>1686415000135</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1686415000137</updated>
+    </task>
+    <task id="LOCAL-00058" summary="新增云服务后台django配置，">
+      <created>1686415143855</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1686415143856</updated>
+    </task>
+    <task id="LOCAL-00059" summary="新增工具：图片批量调整">
+      <created>1686415211801</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1686415211801</updated>
+    </task>
+    <task id="LOCAL-00060" summary="新增工具&#10;1、支持选择文件夹批量操作&#10;2、支持简单筛选图片类型针对操作&#10;3、原文件下新建文件保存">
+      <created>1686424386371</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1686424386371</updated>
+    </task>
+    <task id="LOCAL-00061" summary="新增工具&#10;1、支持选择文件夹批量操作&#10;2、支持简单筛选图片类型针对操作&#10;3、原文件下新建文件保存">
+      <created>1686425495073</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1686425495073</updated>
+    </task>
+    <task id="LOCAL-00062" summary="新增工具&#10;1、支持选择文件夹批量操作&#10;2、支持简单筛选图片类型针对操作&#10;3、原文件下新建文件保存">
+      <created>1686762937071</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1686762937072</updated>
+    </task>
+    <task id="LOCAL-00063" summary="新增EX:HTML基础样式接触，CSS和JavaScript的基础了解">
+      <created>1686763002536</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1686763002536</updated>
+    </task>
+    <task id="LOCAL-00064" summary="新增EX:HTML基础样式接触，CSS和JavaScript的基础了解">
+      <created>1686764822869</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1686764822870</updated>
+    </task>
+    <task id="LOCAL-00065" summary="新增EX:HTML基础样式接触，CSS和JavaScript的基础了解">
+      <created>1686764837478</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1686764837478</updated>
+    </task>
+    <task id="LOCAL-00066" summary="新增：TCP 简单服务器和客户端案例">
+      <created>1687871925375</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1687871925375</updated>
+    </task>
+    <task id="LOCAL-00067" summary="新增：UDP 简单服务器和客户端案例">
+      <created>1687871938412</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1687871938412</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -668,20 +597,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增OS库功能，这里简单完成自动化pip" />
-    <MESSAGE value="新增：爬虫的尝试小案例" />
-    <MESSAGE value="新增：自制二维码" />
-    <MESSAGE value="新增：图型交互界面窗口，只是窗口" />
-    <MESSAGE value="新增：交互设计中，游戏和图片的常用库信息，内容空，" />
-    <MESSAGE value="新增：画图工具，绘制花朵" />
-    <MESSAGE value="调整文件位置，补充后续课程文件分类" />
     <MESSAGE value="新增：爬取网页内存信息，包含&#10;1、获取网页信息展示&#10;2、获取京东、亚马逊的页面信息&#10;3、通过链接方式提交请求信息&#10;4、获取图片并保存文件&#10;5、请求链接形式查询IP归属地【好像被发现了】" />
     <MESSAGE value="新增：beautifulSoup，&#10;1、获取网页信息，&#10;2、解析展示&#10;3、按照节点遍历&#10;4、prettify优化展示方式" />
     <MESSAGE value="新增：信息标记和提取" />
@@ -700,6 +628,13 @@
     <MESSAGE value="新增：图形绘制&#10;1、二维展示&#10;2、展示的细节信息编辑&#10;3、窗格的划分" />
     <MESSAGE value="新增实例：图形绘制&#10;1、饼图、直方图、射线图、散点图&#10;2、针对数据分析展示的引力波案例" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="调整文件归类，细化" />
+    <MESSAGE value="新增云服务后台django配置，" />
+    <MESSAGE value="新增工具：图片批量调整" />
+    <MESSAGE value="新增工具&#10;1、支持选择文件夹批量操作&#10;2、支持简单筛选图片类型针对操作&#10;3、原文件下新建文件保存" />
+    <MESSAGE value="新增EX:HTML基础样式接触，CSS和JavaScript的基础了解" />
+    <MESSAGE value="新增：TCP 简单服务器和客户端案例" />
+    <MESSAGE value="新增：UDP 简单服务器和客户端案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增：UDP 简单服务器和客户端案例" />
   </component>
 </project>

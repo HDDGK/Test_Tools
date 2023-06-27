@@ -1,0 +1,2 @@
+CMD 执行下面操作
+virtualenv venu
