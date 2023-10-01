@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="新增案例：弹球游戏&#10;1、色彩变化&#10;2、文字、图形打印&#10;3、图形改文字弹弹弹">
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Machine_Learning/EX_K_means.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Machine_Learning/MC_ML_Kmeans.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Machine_Learning/city.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Machine_Learning/city.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Machine_Learning/demo.py" afterDir="false" />
+    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools_Creat/Picture_Edit/select_Picture_Address_Info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tools_Creat/Picture_Edit/select_Picture_Address_Info.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,13 +229,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680672722856</updated>
-    </task>
-    <task id="LOCAL-00024" summary="新增雷达图功能，">
-      <created>1684865268157</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1684865268157</updated>
     </task>
     <task id="LOCAL-00025" summary="新增OS库功能，这里简单完成自动化pip">
       <created>1684865314871</created>
@@ -579,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688060800143</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="更新">
+      <created>1696172898168</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1696172898168</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -600,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增：实例-爬取网页大学排名，内有功能&#10;1、获取网页对应的大学排名信息&#10;2、整理信息并做对应展示&#10;3、获取学校的图片链接，并保存为对应学校名称" />
     <MESSAGE value="新增：实例-爬取淘宝商品&#10;1、网页获取时，跳转到了登录页面&#10;2、目前已失败，等待后续学习cookies模仿跳过登录" />
     <MESSAGE value="新增工具：完成摄像头相关画面操作&#10;1、拍一张照片&#10;2、打开摄像头，展示画面&#10;3、录制画面保存视频" />
     <MESSAGE value="新增案例：爬取股票相关信息&#10;1、目前还在筹措阶段" />
@@ -625,6 +618,7 @@
     <MESSAGE value="新增案例：体验游戏案例的交互设计" />
     <MESSAGE value="新增案例：弹球游戏&#10;1、碰壁反弹&#10;2、调整画面&#10;3、键盘控速&#10;4、点击拖动&#10;5、卡边优化" />
     <MESSAGE value="新增案例：弹球游戏&#10;1、色彩变化&#10;2、文字、图形打印&#10;3、图形改文字弹弹弹" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增案例：弹球游戏&#10;1、色彩变化&#10;2、文字、图形打印&#10;3、图形改文字弹弹弹" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
 </project>
