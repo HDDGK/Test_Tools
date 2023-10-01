@@ -124,4 +124,4 @@ def Pic_HeavyColor(picture_Address,picture_SaveDir,picture_SaveAddress):
 
 if __name__ == '__main__':
     BQO_Image_Save('极致色彩')
-    BQO_Image_Save('手绘风格')
+    # BQO_Image_Save('手绘风格')
