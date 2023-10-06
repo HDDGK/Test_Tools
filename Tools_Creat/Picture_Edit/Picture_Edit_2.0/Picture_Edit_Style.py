@@ -2,8 +2,9 @@ import numpy as np
 from PIL import Image
 
 '''
-功能：独立只做函数的调用，单独处理照片效果，不处理其他问题，
-返回值：只返回处理后的图片数据
+功能：独立只做函数的调用，
+1、单独处理照片效果，不处理其他问题，
+2、并按输入路径保存文件
 '''
 str_k="-"*12
 def Pic_HeavyColor(picture_Address,picture_SaveAddress):
@@ -18,7 +19,6 @@ def Pic_HeavyColor(picture_Address,picture_SaveAddress):
     # print(str_k,"保存文件夹【开始】",str_k)
     im2.save(picture_SaveAddress)
     print(str_k,"保存文件夹【结束】",str_k)
-
 
 def Pic_HandDraw(picture_Address,picture_SaveAddress):
     # print(str_k,"处理图片【开始】",str_k)
@@ -47,3 +47,6 @@ def Pic_HandDraw(picture_Address,picture_SaveAddress):
     # print(str_k, "保存文件夹【开始】", str_k)
     im.save(picture_SaveAddress)
     print(str_k, "保存文件夹【结束】", str_k)
+
+def Pic_H(picture_Address,picture_SaveAddress):
+    print("待补充")
