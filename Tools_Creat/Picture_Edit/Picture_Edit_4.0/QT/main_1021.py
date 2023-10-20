@@ -133,7 +133,7 @@ class mainwindow(QMainWindow):
                 elif chooseStyle=="漫画风格":
                     im = pc.Pic_HandDraw()
                 pc.pictureSavePath(chooseStyle)
-                pc.CheckPath()
+                pc.CheckPath(chooseStyle)
                 im.save(pc.pictureSavePath(chooseStyle))
                 '''
                 # img_pil=Image.open(pc.pictureSavePath("Fix"))
@@ -222,13 +222,13 @@ class PictureChange:
         # print(str_k, "拼凑保存文件夹路径【完成】", str_k)
         return changePath
 
-    def CheckPath(self):
+    def CheckPath(self,Cpath):
         # 这里是对传入的文件的地址，单个处理
         fileDirPath = os.path.abspath(self.savePath)
         file_path, file_name = os.path.split(fileDirPath)
-        sp = self.pictureSavePath(changeDir)
-        if not os.path.exists(file_path + '\\' + changeDir):
-            os.makedirs(file_path + '\\' + changeDir)
+        sp = self.pictureSavePath(Cpath)
+        if not os.path.exists(file_path + '\\' + Cpath):
+            os.makedirs(file_path + '\\' + Cpath)
         return sp
 
     def Pic_HeavyColor(self):
@@ -270,7 +270,7 @@ class PictureChange:
 
 if __name__ == '__main__':
     str_k = "-" * 12
-    changeDir = "处理后图片"
+    # changeDir = "处理后图片"
     # imageLabelWidth = 500
     # imageLabelHeight = 500
     app = QApplication([])
