@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="更新" />
+    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;7、加入comobox，判断列表选择&#10;8、针对列表选择调用处理方式，并针对效果保存文件&#10;9、针对调用方式查询是否已有文件，优先读取本地文件再考虑调用函数处理&#10;10、优化本地文件夹创建问题">
+      <change afterPath="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_3.0/PictureStyleChange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT/PicEdiT-1.0.0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools_Creat/链接" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Try/TRU/Test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +55,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HK145-TP/Documents/GitHub/Test_Tools/LearningProcess/Mooc/MOOC_PYGame/EX_FirstGame&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HK145-TP/Documents/GitHub/Test_Tools/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Python 控制台&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -68,22 +74,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Tools_Creat\Picture_Edit\Picture_Edit_4.0\QT" />
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Tools_Creat\Picture_Edit\Picture_Edit_3.0\QT" />
       <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Mooc\MOOC_PYGame\EX_FirstGame" />
       <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Mooc\MOOC_Cloud\CloudMessageBoard\cloudms\msgapp\templates" />
       <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book\Python_WEB\WEB_Basic\Html_CSS" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\MOOC_Cloud\EX_Cloud_MessageBoard\mysite\hello2app\migrations" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\MOOC_Cloud\EX_Cloud_MessageBoard\mysite\mysite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Try\TRU\Test" />
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Tools_Creat\Picture_Edit\Picture_Edit_3.0" />
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Tools_Creat\Picture_Edit\Picture_Edit_1.0" />
+      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Tools_Creat\Picture_Edit\Picture_Edit_2.0" />
       <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Mooc\MOOC_Machine_Learning" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book\Python_WEB\WEB_Basic\WebBasic" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book\Python_WEB\WEB_Basic\MySQL" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book\Python_WEB\WEB_Basic\Html_CSS" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book\Python_WEB\WEB_Basic\Html_CSS\Image" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.select_Picture_Address_Info">
-    <configuration name="EX_FirstGame_Color_Font" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.$FileNameWithOutExtension$">
+    <configuration name="$FileNameWithOutExtension$" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_PYGame/EX_FirstGame" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Try/TRU/Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_PYGame/EX_FirstGame/EX_FirstGame_Color_Font.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Try/TRU/Test/$FileNameWithOutExtension$.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="EX_FirstGame_Paint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PicEdiT-1.0.0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_PYGame/EX_FirstGame" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_PYGame/EX_FirstGame/EX_FirstGame_Paint.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT/PicEdiT-1.0.0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="EX_K_means" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PictureStyleChange" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,32 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Machine_Learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_3.0" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Machine_Learning/EX_K_means.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MC_ML_Kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Test_Tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Machine_Learning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LearningProcess/Mooc/MOOC_Machine_Learning/MC_ML_Kmeans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_3.0/PictureStyleChange.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,7 +173,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="select_Picture_Address_Info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_1020-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,11 +181,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/select_Picture_Address_Info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT/main_1020-1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_1021" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Test_Tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT/main_1021.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.select_Picture_Address_Info" />
-        <item itemvalue="Python.EX_K_means" />
-        <item itemvalue="Python.MC_ML_Kmeans" />
-        <item itemvalue="Python.EX_FirstGame_Color_Font" />
-        <item itemvalue="Python.EX_FirstGame_Paint" />
+        <item itemvalue="Python.$FileNameWithOutExtension$" />
+        <item itemvalue="Python.PicEdiT-1.0.0" />
+        <item itemvalue="Python.main_1021" />
+        <item itemvalue="Python.main_1020-1" />
+        <item itemvalue="Python.PictureStyleChange" />
       </list>
     </recent_temporary>
   </component>
@@ -227,118 +233,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680672722856</updated>
-    </task>
-    <task id="LOCAL-00025" summary="新增OS库功能，这里简单完成自动化pip">
-      <created>1684865314871</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1684865314871</updated>
-    </task>
-    <task id="LOCAL-00026" summary="新增：爬虫的尝试小案例">
-      <created>1684945410118</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1684945410118</updated>
-    </task>
-    <task id="LOCAL-00027" summary="新增：自制二维码">
-      <created>1684945429149</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1684945429149</updated>
-    </task>
-    <task id="LOCAL-00028" summary="新增：自制二维码">
-      <created>1684946079963</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1684946079963</updated>
-    </task>
-    <task id="LOCAL-00029" summary="新增：图型交互界面窗口，只是窗口">
-      <created>1684948470927</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1684948470927</updated>
-    </task>
-    <task id="LOCAL-00030" summary="新增：交互设计中，游戏和图片的常用库信息，内容空，">
-      <created>1684948531375</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1684948531375</updated>
-    </task>
-    <task id="LOCAL-00031" summary="新增：交互设计中，游戏和图片的常用库信息，内容空，">
-      <created>1684950645606</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1684950645606</updated>
-    </task>
-    <task id="LOCAL-00032" summary="新增：画图工具，绘制花朵">
-      <created>1684950677383</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1684950677383</updated>
-    </task>
-    <task id="LOCAL-00033" summary="调整文件位置，补充后续课程文件分类">
-      <created>1684953877789</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1684953877789</updated>
-    </task>
-    <task id="LOCAL-00034" summary="新增：爬取网页内存信息，包含&#10;1、获取网页信息展示&#10;2、获取京东、亚马逊的页面信息&#10;3、通过链接方式提交请求信息&#10;4、获取图片并保存文件&#10;5、请求链接形式查询IP归属地【好像被发现了】">
-      <created>1685205477952</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1685205477952</updated>
-    </task>
-    <task id="LOCAL-00035" summary="新增：爬取网页内存信息，包含&#10;1、获取网页信息展示&#10;2、获取京东、亚马逊的页面信息&#10;3、通过链接方式提交请求信息&#10;4、获取图片并保存文件&#10;5、请求链接形式查询IP归属地【好像被发现了】">
-      <created>1685205494542</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1685205494542</updated>
-    </task>
-    <task id="LOCAL-00036" summary="新增：beautifulSoup，&#10;1、获取网页信息，&#10;2、解析展示&#10;3、按照节点遍历&#10;4、prettify优化展示方式">
-      <created>1685251850915</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1685251850915</updated>
-    </task>
-    <task id="LOCAL-00037" summary="新增：信息标记和提取">
-      <created>1685269273713</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1685269273713</updated>
-    </task>
-    <task id="LOCAL-00038" summary="新增：实例-爬取网页大学排名，内有功能&#10;1、获取网页对应的大学排名信息&#10;2、整理信息并做对应展示&#10;3、获取学校的图片链接，并保存为对应学校名称">
-      <created>1685289215069</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1685289215069</updated>
-    </task>
-    <task id="LOCAL-00039" summary="新增：RE正则表达式的学习&#10;1、基础的符号及经典案例使用，">
-      <created>1685291531520</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1685291531520</updated>
-    </task>
-    <task id="LOCAL-00040" summary="新增：RE正则表达式的学习&#10;1、基础的符号及经典案例使用，&#10;2、基础方法的使用&#10;3、两种不同的使用方式&#10;4、最大匹配和最小匹配。以及控制量匹配">
-      <created>1685373938630</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1685373938630</updated>
     </task>
     <task id="LOCAL-00041" summary="新增：RE正则表达式的学习&#10;1、基础的符号及经典案例使用，&#10;2、基础方法的使用&#10;3、两种不同的使用方式&#10;4、最大匹配和最小匹配。以及控制量匹配">
       <created>1685375216964</created>
@@ -571,7 +465,119 @@
       <option name="project" value="LOCAL" />
       <updated>1696172898168</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="更新-旧代码&#10;内容：&#10;1、支持语音监听声贝，&#10;2、支持识别语音转文字">
+      <created>1696175171130</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1696175171130</updated>
+    </task>
+    <task id="LOCAL-00075" summary="更新-旧代码&#10;内容：学习进展&#10;EX,学生管理系统。">
+      <created>1696175241218</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1696175241218</updated>
+    </task>
+    <task id="LOCAL-00076" summary="更新-旧代码&#10;内容：学习进展&#10;基础学习">
+      <created>1696175266839</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1696175266839</updated>
+    </task>
+    <task id="LOCAL-00077" summary="更新-旧代码&#10;内容：&#10;1、读取对应的型号的音频文件">
+      <created>1696175412036</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1696175412036</updated>
+    </task>
+    <task id="LOCAL-00078" summary="更新-旧代码&#10;内容：&#10;1、单次采集音频，并保存本地">
+      <created>1696175446314</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1696175446314</updated>
+    </task>
+    <task id="LOCAL-00079" summary="更新-旧代码&#10;内容：&#10;1、持续采集音频，&#10;2、判断音频音量是否高于需求&#10;3、发起录制并保存本地">
+      <created>1696175507849</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1696175507849</updated>
+    </task>
+    <task id="LOCAL-00080" summary="更新-旧代码&#10;内容：&#10;1、打开本地保存的音频&#10;2、识别语音内容转换文字">
+      <created>1696175670108</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1696175670108</updated>
+    </task>
+    <task id="LOCAL-00081" summary="工具版本更新&#10;内容：&#10;批量按效果P图">
+      <created>1696238577382</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1696238577382</updated>
+    </task>
+    <task id="LOCAL-00082" summary="工具版本更新&#10;内容：&#10;调整文件存储">
+      <created>1696571025896</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1696571025896</updated>
+    </task>
+    <task id="LOCAL-00083" summary="工具版本更新&#10;内容：&#10;调整文件存储">
+      <created>1696571036180</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1696571036180</updated>
+    </task>
+    <task id="LOCAL-00084" summary="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计">
+      <created>1697735457818</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1697735457820</updated>
+    </task>
+    <task id="LOCAL-00085" summary="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;优化了&#10;1、增加高分辨率图片的展示，适配&#10;2、针对较长边的展示优化，保证全幅画面展示">
+      <created>1697735493985</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1697735493985</updated>
+    </task>
+    <task id="LOCAL-00086" summary="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;4、在展示图片的基础上，增加已有的图片处理函数&#10;5、处理完成后针对性保存&#10;6、展示保存后的图片">
+      <created>1697806174123</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1697806174123</updated>
+    </task>
+    <task id="LOCAL-00087" summary="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;7、加入comobox，判断列表选择&#10;8、针对列表选择调用处理方式，并针对效果保存文件&#10;9、针对调用方式查询是否已有文件，优先读取本地文件再考虑调用函数处理">
+      <created>1697812786130</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812786131</updated>
+    </task>
+    <task id="LOCAL-00088" summary="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;7、加入comobox，判断列表选择&#10;8、针对列表选择调用处理方式，并针对效果保存文件&#10;9、针对调用方式查询是否已有文件，优先读取本地文件再考虑调用函数处理">
+      <created>1697826710305</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1697826710306</updated>
+    </task>
+    <task id="LOCAL-00089" summary="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;7、加入comobox，判断列表选择&#10;8、针对列表选择调用处理方式，并针对效果保存文件&#10;9、针对调用方式查询是否已有文件，优先读取本地文件再考虑调用函数处理&#10;10、优化本地文件夹创建问题">
+      <created>1697827478910</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1697827478910</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,20 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增：实例-爬取淘宝商品&#10;1、网页获取时，跳转到了登录页面&#10;2、目前已失败，等待后续学习cookies模仿跳过登录" />
-    <MESSAGE value="新增工具：完成摄像头相关画面操作&#10;1、拍一张照片&#10;2、打开摄像头，展示画面&#10;3、录制画面保存视频" />
-    <MESSAGE value="新增案例：爬取股票相关信息&#10;1、目前还在筹措阶段" />
-    <MESSAGE value="新增案例：爬取股票相关信息&#10;1、目标网站结构更新，无法获取正常的信息，&#10;案例暂时失败，后续可以找简单网站尝试一下" />
-    <MESSAGE value="新增案例：待定，空" />
-    <MESSAGE value="新增案例：图片手绘风格" />
-    <MESSAGE value="新增：numpy学习&#10;1、一维、二维、多维&#10;2、操作和处理方法" />
-    <MESSAGE value="新增：图形绘制&#10;1、二维展示&#10;2、展示的细节信息编辑" />
-    <MESSAGE value="新增：数据保存和读取" />
-    <MESSAGE value="新增：图形绘制&#10;1、二维展示&#10;2、展示的细节信息编辑&#10;3、窗格的划分" />
-    <MESSAGE value="新增实例：图形绘制&#10;1、饼图、直方图、射线图、散点图&#10;2、针对数据分析展示的引力波案例" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <MESSAGE value="调整文件归类，细化" />
-    <MESSAGE value="新增云服务后台django配置，" />
     <MESSAGE value="新增工具：图片批量调整" />
     <MESSAGE value="新增工具&#10;1、支持选择文件夹批量操作&#10;2、支持简单筛选图片类型针对操作&#10;3、原文件下新建文件保存" />
     <MESSAGE value="新增EX:HTML基础样式接触，CSS和JavaScript的基础了解" />
@@ -617,6 +609,20 @@
     <MESSAGE value="新增案例：弹球游戏&#10;1、碰壁反弹&#10;2、调整画面&#10;3、键盘控速&#10;4、点击拖动&#10;5、卡边优化" />
     <MESSAGE value="新增案例：弹球游戏&#10;1、色彩变化&#10;2、文字、图形打印&#10;3、图形改文字弹弹弹" />
     <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+    <MESSAGE value="更新-旧代码&#10;内容：&#10;1、支持语音监听声贝，&#10;2、支持识别语音转文字" />
+    <MESSAGE value="更新-旧代码&#10;内容：学习进展&#10;EX,学生管理系统。" />
+    <MESSAGE value="更新-旧代码&#10;内容：学习进展&#10;基础学习" />
+    <MESSAGE value="更新-旧代码&#10;内容：&#10;1、读取对应的型号的音频文件" />
+    <MESSAGE value="更新-旧代码&#10;内容：&#10;1、单次采集音频，并保存本地" />
+    <MESSAGE value="更新-旧代码&#10;内容：&#10;1、持续采集音频，&#10;2、判断音频音量是否高于需求&#10;3、发起录制并保存本地" />
+    <MESSAGE value="更新-旧代码&#10;内容：&#10;1、打开本地保存的音频&#10;2、识别语音内容转换文字" />
+    <MESSAGE value="工具版本更新&#10;内容：&#10;批量按效果P图" />
+    <MESSAGE value="工具版本更新&#10;内容：&#10;调整文件存储" />
+    <MESSAGE value="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计" />
+    <MESSAGE value="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;优化了&#10;1、增加高分辨率图片的展示，适配&#10;2、针对较长边的展示优化，保证全幅画面展示" />
+    <MESSAGE value="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;4、在展示图片的基础上，增加已有的图片处理函数&#10;5、处理完成后针对性保存&#10;6、展示保存后的图片" />
+    <MESSAGE value="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;7、加入comobox，判断列表选择&#10;8、针对列表选择调用处理方式，并针对效果保存文件&#10;9、针对调用方式查询是否已有文件，优先读取本地文件再考虑调用函数处理" />
+    <MESSAGE value="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;7、加入comobox，判断列表选择&#10;8、针对列表选择调用处理方式，并针对效果保存文件&#10;9、针对调用方式查询是否已有文件，优先读取本地文件再考虑调用函数处理&#10;10、优化本地文件夹创建问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;7、加入comobox，判断列表选择&#10;8、针对列表选择调用处理方式，并针对效果保存文件&#10;9、针对调用方式查询是否已有文件，优先读取本地文件再考虑调用函数处理&#10;10、优化本地文件夹创建问题" />
   </component>
 </project>
