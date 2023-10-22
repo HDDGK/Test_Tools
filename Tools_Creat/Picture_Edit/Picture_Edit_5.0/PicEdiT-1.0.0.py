@@ -55,10 +55,15 @@ def info():
     1、增加新功能，支持图形填充功能
     2、优化代码，采用类和对象的继承方式，完成图片处理相同操作的简化，
     
-    遗留问题：
+    遗留问题【处理进展】：
     1、保存文件夹内出行多余文件夹
+        备注：因为传入的地址参数变化，目前传入的就是savepath，调用之前的原地址代码，会在基础上创建两个，已解决
     2、选择文件时，多出现一个弹窗
+        备注：不同环境下表现不同，目前看同代码不同设备未出现该问题，暂定环境问题，不处理
     3、选择文件时，指定类型未生效。
+        备注：Qfile打开时的文件指定是支持的，filedialog使用时增加了全类型的选择，目前已取消
+    4、优化选择文字填充功能时，选择空文档，导致关键词为空时的效验及提示
+        备注：目前获取空文件夹不会报错，不选择也不会报错
     ''')
 
 
@@ -198,7 +203,7 @@ class mainwindow(QMainWindow):
     def load_image(self):
         imageLabelWidth = int((mainwindow.screen(self).size().width() - 50) / 2)
         imageLabelHeight = int((mainwindow.screen(self).size().height() - 150))
-        fname, _ = QFileDialog.getOpenFileName(self, 'Open File', 'C://', "Image files (*.jpg *.png)")
+        fname, _ = QFileDialog.getOpenFileName(self, 'Open File', 'c://', "Image files (*.jpg *.png *jpeg)")
         if fname is not None and fname != "":
             # fname != "" 避免点击后不选择的空值导致上一次选择的图片被刷
 
@@ -238,8 +243,13 @@ class PicEdit():
         fileDirPath = os.path.abspath(self.savePath)
         file_path, file_name = os.path.split(fileDirPath)
         sp = self.pictureSavePath(Cpath)
-        if not os.path.exists(file_path + '\\' + Cpath):
-            os.makedirs(file_path + '\\' + Cpath)
+
+        #下面是因为传入的地址参数变化，目前传入的就是savepath，调用之前的原地址代码，会在基础上创建两个
+        # if not os.path.exists(file_path + '\\' + Cpath):
+        #     os.makedirs(file_path + '\\' + Cpath)
+        #     print(file_path + '\\' + Cpath)
+        if not os.path.exists(file_path ):
+            os.makedirs(file_path)
         return sp
 
 class PictureChange(PicEdit):
@@ -292,7 +302,10 @@ class PictureFillCloud_word(PicEdit):
             self.get_Txt()
             print("文本获取成功")
             self.get_MianWord()
-            print("关键字获取成功",self.get_MianWord())
+            if self.get_MianWord()=="":
+                print("关键字获取失败，空")
+            else:
+                print("关键字获取成功", self.get_MianWord())
             if self.get_MianWord() != "":
                 self.get_shape()
                 print("形状获取成功")
@@ -307,7 +320,8 @@ class PictureFillCloud_word(PicEdit):
     def get_TxtFilePath(self):
         try:
             tkinter.messagebox.showinfo("选择", "选择一个txt文本文件")
-            self.txt_path = filedialog.askopenfilename(filetypes=[('txt', "*.txt"), ('All Files', "*")])
+            # self.txt_path = filedialog.askopenfilename(filetypes=[('txt', "*.txt"), ('All Files', "*")])
+            self.txt_path = filedialog.askopenfilename(filetypes=[('txt', "*.txt")])
         except:
             print("???,好好选一下txt文件")
     def get_Txt(self):
@@ -330,10 +344,10 @@ class PictureFillCloud_word(PicEdit):
 
         # from scipy.misc import imread
         if self.picturepath is None and self.picturepath == "":
-            print("meiyou")
+            print("本地没有文件")
             tkinter.messagebox.showinfo("选择", "选择一个形状图片")
             Folder_PNG_Path = filedialog.askopenfilename(title="选择一个形状PNG图片",
-                                                         filetypes=[('png', "*.png"), ('All Files', "*")])
+                                                         filetypes=[('png', "*.png")])
         else:
             Folder_PNG_Path=self.picturepath
         mask = imread(Folder_PNG_Path, pilmode='L')
