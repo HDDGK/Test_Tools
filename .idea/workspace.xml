@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;7、加入comobox，判断列表选择&#10;8、针对列表选择调用处理方式，并针对效果保存文件&#10;9、针对调用方式查询是否已有文件，优先读取本地文件再考虑调用函数处理&#10;10、优化本地文件夹创建问题">
-      <change afterPath="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_3.0/PictureStyleChange.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT/PicEdiT-1.0.0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools_Creat/链接" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Try/TRU/Test/__init__.py" afterDir="false" />
+    <list default="true" id="d35973a3-a940-4367-8b48-7cd0ea2350ef" name="Changes" comment="工具版本更新&#10;内">
+      <change afterPath="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_5.0/STCAIYUN.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Try/TRU/Test/try.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Test_Tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test_Tools.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +55,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HK145-TP/Documents/GitHub/Test_Tools/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Python 控制台&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HK145/Documents/GitHub/HDDGK/Test_Tools/Tools_Creat/ToolBox/ToolBox_1.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -74,22 +75,64 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HK145\Documents\GitHub\HDDGK\Test_Tools\Tools_Creat\ToolBox\ToolBox_1.0" />
+      <recent name="C:\Users\HK145\Documents\GitHub\HDDGK\Test_Tools\Tools_Creat\Picture_Edit" />
+      <recent name="C:\Users\HK145\Documents\GitHub\HDDGK\Test_Tools\LearningProcess\Mooc\MOOC_BasicStudy" />
+      <recent name="C:\Users\HK145\Documents\GitHub\HDDGK\Test_Tools\Tools_Creat\ToolBox" />
       <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Tools_Creat\Picture_Edit\Picture_Edit_4.0\QT" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Tools_Creat\Picture_Edit\Picture_Edit_3.0\QT" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Mooc\MOOC_PYGame\EX_FirstGame" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Mooc\MOOC_Cloud\CloudMessageBoard\cloudms\msgapp\templates" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Book\Python_WEB\WEB_Basic\Html_CSS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Try\TRU\Test" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Tools_Creat\Picture_Edit\Picture_Edit_3.0" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Tools_Creat\Picture_Edit\Picture_Edit_1.0" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\Tools_Creat\Picture_Edit\Picture_Edit_2.0" />
-      <recent name="C:\Users\HK145-TP\Documents\GitHub\Test_Tools\LearningProcess\Mooc\MOOC_Machine_Learning" />
+      <recent name="C:\Users\HK145\Documents\GitHub\HDDGK\Test_Tools\Tools_Creat\ToolBox\ToolBox_1.0" />
+      <recent name="C:\Users\HK145\Documents\GitHub\HDDGK\Test_Tools\Tools_Creat\ToolBox" />
+      <recent name="C:\Users\HK145\Documents\GitHub\HDDGK\Test_Tools\Tools_Creat\Picture_Edit\Picture_Edit_5.0" />
+      <recent name="C:\Users\HK145\Documents\GitHub\HDDGK\Test_Tools\Try\TRU\Test" />
+      <recent name="C:\Users\HK145\Documents\GitHub\HDDGK\Test_Tools\Tools_Creat\Picture_Edit" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.$FileNameWithOutExtension$">
-    <configuration name="$FileNameWithOutExtension$" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ToolBox_1.0.231024 (1)">
+    <configuration name="PicEdiT-1.0.0 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Test_Tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_5.0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_5.0/PicEdiT-1.0.0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PicEdiT-1.1.0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Test_Tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_5.0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_5.0/PicEdiT-1.1.0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,7 +144,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Try/TRU/Test/$FileNameWithOutExtension$.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Try/TRU/Test/Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PicEdiT-1.0.0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ToolBox_1.0.231024 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +161,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/ToolBox/ToolBox_1.0" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT/PicEdiT-1.0.0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/ToolBox/ToolBox_1.0/ToolBox_1.0.231024.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PictureStyleChange" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ToolBox_1.0.231024" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test_Tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +182,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_3.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Try/TRU/Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_3.0/PictureStyleChange.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\HK145\Documents\GitHub\HDDGK\Test_Tools\Tools_Creat\ToolBox\ToolBox_1.0\ToolBox_1.0.231024.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,55 +216,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_1020-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Test_Tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT/main_1020-1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main_1021" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Test_Tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools_Creat/Picture_Edit/Picture_Edit_4.0/QT/main_1021.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.$FileNameWithOutExtension$" />
-        <item itemvalue="Python.PicEdiT-1.0.0" />
-        <item itemvalue="Python.main_1021" />
-        <item itemvalue="Python.main_1020-1" />
-        <item itemvalue="Python.PictureStyleChange" />
+        <item itemvalue="Python.ToolBox_1.0.231024 (1)" />
+        <item itemvalue="Python.PicEdiT-1.1.0" />
+        <item itemvalue="Python.ToolBox_1.0.231024" />
+        <item itemvalue="Python.Test" />
+        <item itemvalue="Python.PicEdiT-1.0.0 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -233,13 +234,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680672722856</updated>
-    </task>
-    <task id="LOCAL-00041" summary="新增：RE正则表达式的学习&#10;1、基础的符号及经典案例使用，&#10;2、基础方法的使用&#10;3、两种不同的使用方式&#10;4、最大匹配和最小匹配。以及控制量匹配">
-      <created>1685375216964</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1685375216964</updated>
     </task>
     <task id="LOCAL-00042" summary="新增：RE正则表达式的学习&#10;1、基础的符号及经典案例使用，&#10;2、基础方法的使用&#10;3、两种不同的使用方式&#10;4、最大匹配和最小匹配。以及控制量匹配">
       <created>1685375239743</created>
@@ -577,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697827478910</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="工具版本更新&#10;内容：&#10;    【1.0.0】&#10;    1、增加新功能，支持图形填充功能&#10;    2、支持文本词云功能&#10;    3、优化代码，采用类和对象的继承方式，完成图片处理相同操作的简化，&#10;&#10;    遗留问题：&#10;    1、保存文件夹内出行多余文件夹&#10;    2、选择文件时，多出现一个弹窗&#10;    3、选择文件时，指定类型未生效。">
+      <created>1697915158357</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1697915158357</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -598,7 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增工具：图片批量调整" />
     <MESSAGE value="新增工具&#10;1、支持选择文件夹批量操作&#10;2、支持简单筛选图片类型针对操作&#10;3、原文件下新建文件保存" />
     <MESSAGE value="新增EX:HTML基础样式接触，CSS和JavaScript的基础了解" />
     <MESSAGE value="新增：TCP 简单服务器和客户端案例" />
@@ -623,6 +623,7 @@
     <MESSAGE value="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;4、在展示图片的基础上，增加已有的图片处理函数&#10;5、处理完成后针对性保存&#10;6、展示保存后的图片" />
     <MESSAGE value="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;7、加入comobox，判断列表选择&#10;8、针对列表选择调用处理方式，并针对效果保存文件&#10;9、针对调用方式查询是否已有文件，优先读取本地文件再考虑调用函数处理" />
     <MESSAGE value="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;7、加入comobox，判断列表选择&#10;8、针对列表选择调用处理方式，并针对效果保存文件&#10;9、针对调用方式查询是否已有文件，优先读取本地文件再考虑调用函数处理&#10;10、优化本地文件夹创建问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="工具版本更新&#10;内容：&#10;图片效果调整的软件界面设计，&#10;7、加入comobox，判断列表选择&#10;8、针对列表选择调用处理方式，并针对效果保存文件&#10;9、针对调用方式查询是否已有文件，优先读取本地文件再考虑调用函数处理&#10;10、优化本地文件夹创建问题" />
+    <MESSAGE value="工具版本更新&#10;内容：&#10;    【1.0.0】&#10;    1、增加新功能，支持图形填充功能&#10;    2、支持文本词云功能&#10;    3、优化代码，采用类和对象的继承方式，完成图片处理相同操作的简化，&#10;&#10;    遗留问题：&#10;    1、保存文件夹内出行多余文件夹&#10;    2、选择文件时，多出现一个弹窗&#10;    3、选择文件时，指定类型未生效。" />
+    <option name="LAST_COMMIT_MESSAGE" value="工具版本更新&#10;内容：&#10;    【1.0.0】&#10;    1、增加新功能，支持图形填充功能&#10;    2、支持文本词云功能&#10;    3、优化代码，采用类和对象的继承方式，完成图片处理相同操作的简化，&#10;&#10;    遗留问题：&#10;    1、保存文件夹内出行多余文件夹&#10;    2、选择文件时，多出现一个弹窗&#10;    3、选择文件时，指定类型未生效。" />
   </component>
 </project>
