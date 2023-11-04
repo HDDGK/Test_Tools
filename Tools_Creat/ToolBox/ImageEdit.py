@@ -14,34 +14,113 @@ from imageio import imread
 
 class ImageEdit():
     ImageFileAddress = ""
-    ImageFileAddressLisr = []
+    ImageFileSaveAddress = ""
+    ImageFileAddressList = []
 
-    def loadImage(self, screenX, screenY):
-        imageLabelWidth = int((screenX - 50) / 2)
-        imageLabelHeight = int((screenY - 150))
-        ImageFileAddress, _ = QFileDialog.getOpenFileName(None, 'Open File', 'c://', "Image files (*.jpg *.png *jpeg)")
-        # self.loadImageLabel.setText("?")
-        if ImageFileAddress is not None and ImageFileAddress != "":
-            # fname != "" 避免点击后不选择的空值导致上一次选择的图片被刷
+    imageLabelWidth =0
+    imageLabelHeight=0
+    def CheckImage(self,path):
+        try:
+            file_path, file_name = os.path.split(path)
+            name,type=os.path.splitext(file_name)
+            print(name,type)
+            if type in (".jpg",".png",".jpeg"):
+                return True
+        except:
+            print("出错了")
+            return False
+    def EStyleMenu(self,styleName):
+        # print("1、进入Stylemenu")
+        if os.path.exists(self.ImageFileAddress):#确定本地有图才继续
+            # print("2、图片真实存在")
 
-            # 还需要对图片进行重新调整大小
-            img = QImageReader(ImageFileAddress)  # 通过传入选择的图片路径，读取图片
+            if styleName == "极致色彩":
+                # print("3、选择了这种模式：",styleName)
+                im = self.Pic_HeavyColor()
+                self.pictureSavePath(styleName)
+                im.save(self.ImageFileSaveAddress)
+            elif styleName == "漫画风格":
+                im = self.Pic_HandDraw()
+                self.pictureSavePath(styleName)
+                im.save(self.ImageFileSaveAddress)
+        # if styleName == "图案填充":
+        #     pc = PictureFillCloud_word()
+        #     pc.picturepath = fname
+        #     pc.CheckPath("图案填充")
+        #     pc.run()
+
+    def pictureSavePath(self, styleName):
+        fileDirPath = os.path.abspath(self.ImageFileAddress)
+        file_path, file_name = os.path.split(fileDirPath)
+        changePath = os.path.abspath(file_path) + "\\" + str(styleName) + "\\" + file_name
+        self.ImageFileSaveAddress = changePath
+        self.CheckPath()#先创建看看，后面不在单独check了
+        return changePath
+
+    def CheckPath(self):
+        print("check")
+        # 这里是对传入的文件的地址，单个处理
+        fileDirPath = os.path.abspath(self.ImageFileSaveAddress)
+        file_path, file_name = os.path.split(fileDirPath)
+        # sp = self.pictureSavePath(savepath)
+
+        # 下面是因为传入的地址参数变化，目前传入的就是savepath，调用之前的原地址代码，会在基础上创建两个
+        # if not os.path.exists(file_path + '\\' + savepath):
+        #     os.makedirs(file_path + '\\' + savepath)
+        #     print(file_path + '\\' + savepath)
+        if not os.path.exists(file_path):
+            os.makedirs(file_path)
+        # return sp
+    def Pic_HeavyColor(self):
+        im = np.array(Image.open(self.ImageFileAddress).convert("RGB"))
+        # im = np.array(Image.open(self.ImageFileAddress).convert('L'))# 灰度值
+        # im2 = Image.fromarray(im.astype('uint8'))
+        GM = 255 * (im / 255) ** 2
+        im = Image.fromarray(GM.astype('uint8'))
+        return im
+    def Pic_HandDraw(self):
+        # print(str_k,"处理图片【开始】",str_k)
+        a = np.asarray(Image.open(self.ImageFileAddress).convert('L')).astype('float')
+
+        depth = 20
+        grad = np.gradient(a)
+        grad_x, grad_y = grad
+        grad_x = grad_x * depth / 100
+        grad_y = grad_y * depth / 100
+        A = np.sqrt(grad_x ** 2 + grad_y ** 2 + 1.)
+        uni_x = grad_x / A
+        uni_y = grad_y / A
+        uni_z = 1. / A
+
+        vec_el = np.pi / 2.2
+        vec_az = np.pi / 4.
+        dx = np.cos(vec_el) * np.cos(vec_az)
+        dy = np.cos(vec_el) * np.sin(vec_az)
+        dz = np.sin(vec_el)
+
+        b = 255 * (dx * uni_x + dy * uni_y + dz * uni_z)
+        b = b.clip(0.255)
+        im = Image.fromarray(b.astype('uint8'))
+        print("-" * 12, "处理图片【结束】", "-" * 12)
+        return im
+
+    def loadImage(self):
+            img = QImageReader(self.ImageFileAddress)  # 通过传入选择的图片路径，读取图片
 
             # 针对图片的长宽问题，选择合适的最大边作为比例展示全幅画面
             if img.size().height() > img.size().width():
-                scale = imageLabelHeight / img.size().height()
+                scale = self.imageLabelHeight / img.size().height()
                 Width = int(img.size().width() * scale)
-                img.setScaledSize(QSize(Width, imageLabelHeight))
+                img.setScaledSize(QSize(Width, self.imageLabelHeight))
             else:
-                scale = imageLabelWidth / img.size().width()
+                scale = self.imageLabelWidth / img.size().width()
                 height = int(img.size().height() * scale)
-                img.setScaledSize(QSize(imageLabelWidth, height))
+                img.setScaledSize(QSize(self.imageLabelWidth, height))
 
             img = img.read()
             # 打开设置好的图片
             pixmap = QPixmap(img)
-            return ImageFileAddress, pixmap
-
+            return  pixmap
 
 class PicEdit():
     picturepath = ""

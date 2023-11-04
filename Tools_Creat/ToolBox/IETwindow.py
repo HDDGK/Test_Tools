@@ -118,22 +118,38 @@ class ImageEditToolWindow(object):
         self.tab_1_horizontalLayout_21 = QtWidgets.QHBoxLayout(self.tab)
         # 左侧内部butten又二分一，限制大小
         self.tab_1_verticalLayout_2111 = QtWidgets.QVBoxLayout()
+        self.tab_1_verticalLayout_2112 = QtWidgets.QVBoxLayout()
+
         self.tab_1_verticalLayout_2111.setObjectName("tab_1_verticalLayout_21")
         self.ImageChoicepushButton = QtWidgets.QPushButton(self.tab)
-        self.ImageChoicepushButton.setObjectName("pushButton_2")
+        self.ImageChoicepushButton.setObjectName("ImageChoicepushButton")
         self.tab_1_verticalLayout_2111.addWidget(self.ImageChoicepushButton)
         self.ImageFixpushButton = QtWidgets.QPushButton(self.tab)
-        self.ImageFixpushButton.setObjectName("pushButton")
+        self.ImageFixpushButton.setObjectName("ImageFixpushButton")
         self.tab_1_verticalLayout_2111.addWidget(self.ImageFixpushButton)
-        self.pushButton_3 = QtWidgets.QPushButton(self.tab)
-        self.pushButton_3.setObjectName("pushButton_3")
-        self.tab_1_verticalLayout_2111.addWidget(self.pushButton_3)
+        self.RecoverButton = QtWidgets.QPushButton(self.tab)
+        self.RecoverButton.setObjectName("RecoverButton")
+        self.tab_1_verticalLayout_2111.addWidget(self.RecoverButton)
         # 增加新布局，下方按钮界面的竖向布局,[其实可以忽略，保留做补充]
         self.tab_1_horizontalLayout_211 = QtWidgets.QHBoxLayout()
         self.tab_1_horizontalLayout_211.setObjectName("tab_1_verticalLayout_22")
         # 增加选择图片风格的选择框
         self.choosePicStyleCombo = QtWidgets.QComboBox(self.tab)
         self.choosePicStyleCombo.setObjectName("choosePicStyleCombo")
+        self.WorkLonelyButton = QtWidgets.QRadioButton(self.tab)
+        # self.radioButton.setGeometry(QtCore.QRect(180, 90, 89, 16))
+        self.WorkLonelyButton.setObjectName("WorkLonelyButton")
+        self.WorkTogtherButton = QtWidgets.QRadioButton(self.tab)
+        # self.radioButton_2.setGeometry(QtCore.QRect(180, 110, 89, 16))
+        self.WorkTogtherButton.setObjectName("WorkTogtherButton")
+        self.tab_1_horizontalLayout_21121 = QtWidgets.QHBoxLayout(self.tab)
+
+        self.tab_1_horizontalLayout_21121.addWidget(self.WorkLonelyButton)
+        self.tab_1_horizontalLayout_21121.addWidget(self.WorkTogtherButton)
+        self.tab_1_verticalLayout_2112.addLayout(self.tab_1_horizontalLayout_21121)
+        self.tab_1_verticalLayout_2112.addWidget(self.choosePicStyleCombo)
+
+
         # 增加文本选择框展示
         self.result = QLineEdit()
         self.result.setPlaceholderText("信息展示")
@@ -143,16 +159,14 @@ class ImageEditToolWindow(object):
         self.listPicCombo = QtWidgets.QComboBox(self.tab)
         self.listPicCombo.setObjectName("listPicCombo")
         # TAB1界面布局
-        # self.tab_1_horizontalLayout_21.addWidget(self.listPicCombo)
-        # self.tab_1_horizontalLayout_21.addLayout(self.tab_1_verticalLayout_212)
-        # self.tab_1_horizontalLayout_21.addWidget(self.choosePicStyleCombo)
+
         self.tab_1_horizontalLayout_211.addLayout(self.tab_1_verticalLayout_2111)
-        self.tab_1_horizontalLayout_211.addWidget(self.choosePicStyleCombo)
+        self.tab_1_horizontalLayout_211.addLayout(self.tab_1_verticalLayout_2112)
+
         self.tab_1_horizontalLayout_21.addLayout(self.tab_1_horizontalLayout_211)
         self.tab_1_horizontalLayout_21.addWidget(self.listPicCombo)
         self.tab_1_horizontalLayout_2.addLayout(self.tab_1_horizontalLayout_21)
-        # self.tab_1_horizontalLayout_2.addWidget(self.showinfolabel)
-        # self.tab_1_horizontalLayout_2.addWidget(self.showinfolabel)
+
         # 上下两个横向布局中间插入文本条
         self.tab_1_verticalLayout.addWidget(self.result)
         # 窗口布局加入横向第二个主要横向布局
@@ -163,18 +177,24 @@ class ImageEditToolWindow(object):
     def setInfoImageEditTab(self, MainWindow):
         '''
         提取针对pictureEditTab界面的初始化
+        https://blog.51cto.com/techfanyi/6540034
         :param MainWindow:
         :return:
         '''
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "修图工具"))
-        self.loadImageLabel.setText(_translate("MainWindow", "加载图片"))
-        self.showImageLabel.setText(_translate("MainWindow", "展示图片"))
-        self.ImageChoicepushButton.setText(_translate("MainWindow", "选择文件"))
-        # self.pushButton_2.clicked.connect(self.show)
-        # CPicBtn.clicked.connect(self.load_image)
-        self.ImageFixpushButton.setText(_translate("MainWindow", "处理文件"))
-        self.pushButton_3.setText(_translate("MainWindow", "PushButton"))
+        self.loadImageLabel.setText(_translate("MainWindow", "图片加载区域"))
+        self.showImageLabel.setText(_translate("MainWindow", "修改展示区域"))
+
+        self.ImageChoicepushButton.setText(_translate("MainWindow", "选择图片"))
+
+        self.ImageFixpushButton.setText(_translate("MainWindow", "展示效果"))
+
+
+        self.RecoverButton.setText(_translate("MainWindow", "无效按钮"))
+        self.WorkLonelyButton.setText(_translate("MainWindow", "单文件模式"))
+        self.WorkLonelyButton.setChecked(True)
+        self.WorkTogtherButton.setText(_translate("MainWindow", "文件夹模式"))
         self.choosePicStyleCombo.addItem("极致色彩")
         self.choosePicStyleCombo.addItem("漫画风格")
         self.choosePicStyleCombo.addItem("图案填充")
@@ -182,6 +202,7 @@ class ImageEditToolWindow(object):
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "图片效果编辑"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "图片文字填充"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_3), _translate("MainWindow", "图片类型转换"))
+
         return _translate
 
     def retranslateUi(self, MainWindow):
