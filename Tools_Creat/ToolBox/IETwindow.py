@@ -1,8 +1,11 @@
 import qdarkstyle
+from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QLineEdit
 from PyQt5 import QtCore,QtWidgets
 
 class ImageEditToolWindow(object):
+    screenX=""
+    screenY=""
     def setupUi(self, MainWindow):
         '''
         拆分细节，避免继承调整需要全部重写
@@ -12,14 +15,14 @@ class ImageEditToolWindow(object):
         #主窗口命名
         MainWindow.setObjectName("MainWindow")
 
-        screenX=MainWindow.screen().size().width()
-        screenY=MainWindow.screen().size().height()
+        self.screenX=MainWindow.screen().size().width()
+        self.screenY=MainWindow.screen().size().height()
 
         # 获取屏幕长宽通过主窗口设置窗体大小为全屏
-        MainWindow.resize(screenX,screenY)
+        MainWindow.resize(self.screenX,self.screenY)
 
-        screenX = int(screenX)
-        screenY = int(screenY - 125)
+        screenX = int(self.screenX)
+        screenY = int(self.screenY - 125)
         compareImageLabelX = int((screenX - 50) / 2)
         compareImageLabelY = int(screenY - 150)
 
@@ -91,17 +94,22 @@ class ImageEditToolWindow(object):
         self.tab_1_verticalLayout.setObjectName("tab_1_verticalLayout")
         self.tab_1_horizontalLayout_1 = QtWidgets.QHBoxLayout(self.tab)
         self.tab_1_horizontalLayout_1.setObjectName("tab_1_horizontalLayout_1")
+
         # Tab中添加label，label放在横向布局中
         self.loadImageLabel = QtWidgets.QLabel(self.tab)
         self.loadImageLabel.setEnabled(True)
         self.loadImageLabel.setObjectName("loadImageLabel")
         self.loadImageLabel.setStyleSheet("border: 2px solid black;")
+        self.loadImageLabel.setAlignment(Qt.AlignCenter)  # 图片居中展示
         self.tab_1_horizontalLayout_1.addWidget(self.loadImageLabel)
+
         self.showImageLabel = QtWidgets.QLabel(self.tab)
         self.showImageLabel.setEnabled(True)
         self.showImageLabel.setObjectName("showImageLabel")
         self.showImageLabel.setStyleSheet("border: 2px solid black;")
+        self.showImageLabel.setAlignment(Qt.AlignCenter)  # 图片居中展示
         self.tab_1_horizontalLayout_1.addWidget(self.showImageLabel)
+
         self.tab_1_verticalLayout.addLayout(self.tab_1_horizontalLayout_1)
         # vtab布局中，新增布局横向，横向布局添加控件
         self.tab_1_horizontalLayout_2 = QtWidgets.QHBoxLayout()
@@ -111,12 +119,12 @@ class ImageEditToolWindow(object):
         # 左侧内部butten又二分一，限制大小
         self.tab_1_verticalLayout_2111 = QtWidgets.QVBoxLayout()
         self.tab_1_verticalLayout_2111.setObjectName("tab_1_verticalLayout_21")
-        self.pushButton_2 = QtWidgets.QPushButton(self.tab)
-        self.pushButton_2.setObjectName("pushButton_2")
-        self.tab_1_verticalLayout_2111.addWidget(self.pushButton_2)
-        self.pushButton = QtWidgets.QPushButton(self.tab)
-        self.pushButton.setObjectName("pushButton")
-        self.tab_1_verticalLayout_2111.addWidget(self.pushButton)
+        self.ImageChoicepushButton = QtWidgets.QPushButton(self.tab)
+        self.ImageChoicepushButton.setObjectName("pushButton_2")
+        self.tab_1_verticalLayout_2111.addWidget(self.ImageChoicepushButton)
+        self.ImageFixpushButton = QtWidgets.QPushButton(self.tab)
+        self.ImageFixpushButton.setObjectName("pushButton")
+        self.tab_1_verticalLayout_2111.addWidget(self.ImageFixpushButton)
         self.pushButton_3 = QtWidgets.QPushButton(self.tab)
         self.pushButton_3.setObjectName("pushButton_3")
         self.tab_1_verticalLayout_2111.addWidget(self.pushButton_3)
@@ -162,10 +170,10 @@ class ImageEditToolWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "修图工具"))
         self.loadImageLabel.setText(_translate("MainWindow", "加载图片"))
         self.showImageLabel.setText(_translate("MainWindow", "展示图片"))
-        self.pushButton_2.setText(_translate("MainWindow", "选择文件"))
+        self.ImageChoicepushButton.setText(_translate("MainWindow", "选择文件"))
         # self.pushButton_2.clicked.connect(self.show)
         # CPicBtn.clicked.connect(self.load_image)
-        self.pushButton.setText(_translate("MainWindow", "处理文件"))
+        self.ImageFixpushButton.setText(_translate("MainWindow", "处理文件"))
         self.pushButton_3.setText(_translate("MainWindow", "PushButton"))
         self.choosePicStyleCombo.addItem("极致色彩")
         self.choosePicStyleCombo.addItem("漫画风格")
