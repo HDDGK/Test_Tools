@@ -8,6 +8,7 @@ from PyQt5.QtWidgets import QFileDialog
 from PyQt5.QtGui import QImage, QPixmap
 from PIL import Image
 import numpy as np
+from PyQt5.QtGui import QTransform
 
 class PanelImageEdit(QWidget):
     def __init__(self, parent=None):
@@ -16,6 +17,10 @@ class PanelImageEdit(QWidget):
         self.initUI()
 
     def initUI(self):
+        # 在类中添加一个变量来存储原始 QPixmap 和累积的旋转角度
+        self.original_pixmap = None
+        self.rotation_angle = 0
+
         _translate = QtCore.QCoreApplication.translate
         # 在这里添加自定义面板的 UI 组件和设置
         main_layout = QVBoxLayout()
@@ -84,16 +89,34 @@ class PanelImageEdit(QWidget):
         self.WorkTogtherButton = QtWidgets.QRadioButton()
         self.WorkTogtherButton.setObjectName("WorkTogtherButton")
         self.WorkTogtherButton.setText(_translate("MainWindow", "文件夹模式"))
+        Button_Function_HLayout.addWidget(self.WorkLonelyButton)
+        Button_Function_HLayout.addWidget(self.WorkTogtherButton)
+        Button_Function_VLayout.addLayout(Button_Function_HLayout)
+
+        #增加一个图片旋转功能
+        Button_RotateButton_HLayout = QHBoxLayout()
+        Button_RotateButton_HLayout.setObjectName("Button_Function_HLayout")
+        self.ImageRotateButton = QtWidgets.QPushButton()
+        self.ImageRotateButton.setObjectName("ImageRotateButton")
+        self.ImageRotateButton.setText(_translate("MainWindow", "旋转原图"))
+        self.ImageRotateButton.clicked.connect(self.on_rotate_load_image_label_button_clicked)
+        self.ImageRotateButton2 = QtWidgets.QPushButton()
+        self.ImageRotateButton2.setObjectName("ImageRotateButton")
+        self.ImageRotateButton2.setText(_translate("MainWindow", "旋转处理图"))
+        self.ImageRotateButton2.clicked.connect(self.on_rotate_show_image_label_button_clicked)
+
+        Button_RotateButton_HLayout.addWidget(self.ImageRotateButton)
+        Button_RotateButton_HLayout.addWidget(self.ImageRotateButton2)
+        Button_Function_VLayout.addLayout(Button_RotateButton_HLayout)
+
+        #增加图片处理选中列表
         self.choosePicStyleCombo = QtWidgets.QComboBox()
         self.choosePicStyleCombo.setObjectName("choosePicStyleCombo")
         self.choosePicStyleCombo.addItem("极致色彩")
         self.choosePicStyleCombo.addItem("漫画风格")
         self.choosePicStyleCombo.addItem("图案填充")
         self.choosePicStyleCombo.currentIndexChanged.connect(self.process_and_display_effect)
-
-        Button_Function_HLayout.addWidget(self.WorkLonelyButton)
-        Button_Function_HLayout.addWidget(self.WorkTogtherButton)
-        Button_Function_VLayout.addLayout(Button_Function_HLayout)
+        self.choosePicStyleCombo.currentIndexChanged.connect(self.update_slider_value)
         Button_Function_VLayout.addWidget(self.choosePicStyleCombo)
 
         #第三列信息布局
@@ -110,7 +133,7 @@ class PanelImageEdit(QWidget):
         self.slider = QSlider(Qt.Horizontal)
         self.slider.setMinimum(1)  # 设置最小值
         self.slider.setMaximum(100)  # 设置最大值
-        self.slider.setValue(1)  # 设置初始值
+        self.slider.setValue(20)  # 设置初始值
         self.slider.valueChanged.connect(self.process_and_display_effect)
 
         # 将滑动选择器添加到 Button_Infomation_VLayout 布局中
@@ -162,7 +185,9 @@ class PanelImageEdit(QWidget):
     def display_image_on_label(self, image_file_path, label):
         image = QImage(image_file_path)
         pixmap = QPixmap.fromImage(image)
-
+        # 将原始 QPixmap 存储在类变量中，并重置旋转角度
+        self.original_pixmap = pixmap
+        self.rotation_angle = 0
         # 根据 label 大小调整 pixmap 大小，同时保持宽高比
         scaled_pixmap = pixmap.scaled(label.width(), label.height(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
         label.setPixmap(scaled_pixmap)
@@ -240,7 +265,11 @@ class PanelImageEdit(QWidget):
         return im
 
     def update_slider_value(self, index):
-        if self.choosePicStyleCombo.itemText(index) != "漫画风格":
+        if self.choosePicStyleCombo.itemText(index) == "漫画风格":
+            self.slider.setValue(20)
+        elif self.choosePicStyleCombo.itemText(index) == "极致色彩":
+            self.slider.setValue(30)
+        else:
             self.slider.setValue(1)
 
     def process_and_display_effect(self):
@@ -268,6 +297,7 @@ class PanelImageEdit(QWidget):
         scaled_pixmap = pixmap.scaled(self.showImageLabel.width(), self.showImageLabel.height(), Qt.KeepAspectRatio,
                                       Qt.SmoothTransformation)
         self.showImageLabel.setPixmap(scaled_pixmap)
+
     def update_load_image_label(self, index):
         if index == -1:
             return
@@ -276,3 +306,33 @@ class PanelImageEdit(QWidget):
         self.result.setText(image_file_path)  # 更新 result label
         self.display_image_on_label(image_file_path, self.loadImageLabel)
 
+
+    def on_rotate_show_image_label_button_clicked(self):
+        angle = 90  # 您可以根据需要设置旋转角度
+        self.rotate_image_label(self.showImageLabel, angle)
+
+    def on_rotate_load_image_label_button_clicked(self):
+        angle = 90  # 您可以根据需要设置旋转角度
+        self.rotate_image_label(self.loadImageLabel, angle)
+
+
+    def rotate_image_label(self, image_label, angle):
+        if self.original_pixmap is None:
+            return
+
+        # 更新累积的旋转角度
+        self.rotation_angle += angle
+
+        # 旋转原始 QPixmap
+        transform = QTransform()
+        transform.rotate(self.rotation_angle)
+        rotated_pixmap = self.original_pixmap.transformed(transform, Qt.SmoothTransformation)
+
+        # 根据 QLabel 大小重新调整 QPixmap 大小
+        scaled_pixmap = rotated_pixmap.scaled(
+            image_label.width(), image_label.height(),
+            Qt.KeepAspectRatio, Qt.SmoothTransformation
+        )
+
+        # 将调整后的 QPixmap 设置为 QLabel 的内容
+        image_label.setPixmap(scaled_pixmap)
